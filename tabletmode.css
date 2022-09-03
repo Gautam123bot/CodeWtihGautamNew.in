@@ -1,0 +1,58 @@
+@media all and (max-width: 768px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .my-img {
+        display: none !important;
+    }
+
+    .sidebar a {
+        float: left;
+    }
+
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+    .navbar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .my-img {
+        display: none !important;
+    }
+
+    .navbar a {
+        float: left;
+    }
+
+    div.content {
+        margin-left: 0;
+    }
+
+    .navbar a {
+        text-align: center;
+        float: none;
+        display: block;
+    }
+
+    .navside {
+        position: fixed;
+        background: #111418;
+    }
+
+    .content-column {
+        margin-top: 100px;
+    }
+    .navbar-brand {       
+        color: whitesmoke;
+        font-size: 24px;
+        font-weight: 500;
+        font-family: 'Rubik', sans-serif;
+    }
+}
