@@ -28,6 +28,8 @@
     <link rel="icon" type="image/x-icon" href="img/profile_photo.jpeg">
     <script src="https://kit.fontawesome.com/b90099deb6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
 </head>
 
 <body>
@@ -42,57 +44,88 @@
         <a href="#contact">Contact</a>
     </div> -->
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-lg-2 col-md-2 col-12 p-0 navside">
-                <div class="navbar navbar-expand-md">
-                    <a class="navbar-brand text-center" href="#">Gautam Kumar</a>
-                    <button class="navbar-toggler bg-danger" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <!-- <div class="sidebar"> -->
-                        <img src="img/profile_photo.jpeg" alt="" class="img-responsive my-img">
-                        <a class="active main-margina alinkfont" href="#home">Home</a>
-                        <a href="#news" class="alinkfont">About Me</a>
-                        <a href="#" class="alinkfont">What I Do</a>
-                        <a href="#" class="alinkfont">Resume</a>
-                        <a href="#" class="alinkfont">Portfolio</a>
-                        <a href="#about" class="alinkfont">Testimonial</a>
-                        <a href="#contact" class="alinkfont">Contact</a>
-                        <!-- </div> -->
-                    </div>
-                </div>
-                <div class="social-contact">
-                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Facebook"><i
-                            class="fa-brands fa-facebook-f facebooki"></i></a>
-                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Twitter"><i
-                            class="fa-brands fa-twitter twitteri"></i></a>
-                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Instagram"><i
-                            class="fa-brands fa-instagram instagrami"></i></a>
-                    <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="GitHub"><i
-                            class="fa-brands fa-github githubi"></i></a>
+    <div class="container-fluid main-contain p-0">
+        <!-- <div class="row"> -->
+        <!-- <div class="col-lg-3 col-md-3 col-12 p-0 firstcol"> -->
+        <div class="whole navside">
+            <div class="navbar navbar-expand-md">
+                <a class="navbar-brand text-center" href="#">Gautam Kumar</a>
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="toggler-icon top-bar"></span>
+                    <span class="toggler-icon middle-bar"></span>
+                    <span class="toggler-icon bottom-bar"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- <div class="sidebar"> -->
+                    <img src="img/profile_photo.jpeg" alt="" class="img-responsive my-img">
+                    <a class="active main-margina alinkfont" href="#home">Home</a>
+                    <a href="#news" class="alinkfont">About Me</a>
+                    <a href="#" class="alinkfont">What I Do</a>
+                    <a href="#" class="alinkfont">Resume</a>
+                    <a href="#" class="alinkfont">Portfolio</a>
+                    <a href="#about" class="alinkfont">Testimonial</a>
+                    <a href="#contact" class="alinkfont">Contact</a>
+                    <!-- </div> -->
                 </div>
             </div>
-
-            <div class="col-lg-10 col-md-10 col-12 p-0 content-column">
-                <div class="content">
-                    <h2>Responsive Sidebar Example</h2>
-                    <p>This example use media queries to transform the sidebar to a top navigation bar when the screen
-                        size
-                        is 700px
-                        or less.</p>
-                    <p>We have also added a media query for screens that are 400px or less, which will vertically stack
-                        and
-                        center
-                        the navigation links.</p>
-                    <h3>Resize the browser window to see the effect.</h3>
-                </div>
+            <div class="social-contact">
+                <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Facebook"><i
+                        class="fa-brands fa-facebook-f facebooki"></i></a>
+                <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Twitter"><i
+                        class="fa-brands fa-twitter twitteri"></i></a>
+                <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Instagram"><i
+                        class="fa-brands fa-instagram instagrami"></i></a>
+                <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="GitHub"><i
+                        class="fa-brands fa-github githubi"></i></a>
             </div>
         </div>
+        <!-- </div> -->
+
+        <!-- <div class="col-lg-9 col-md-9 col-12 p-0 secondcol"> -->
+        <div class="content">
+            <div class="hero-bg">
+                <div class="inner-content">
+                    <div class="inn-content p-4">
+                        <img src="img/profile_photo.jpeg" alt="" class="img-responsive my-img-down">
+                        <p class="hey_there">Hey There,</p>
+                        <p class="iamgautam">I'm a <span class="auto-type"></span></p>
+
+                        <script>
+                        var typed = new Typed(".auto-type", {
+                            strings: ["Coder.", "Programmer.", "Developer."],
+                            typeSpeed: 150,
+                            backSpeed: 150,
+                            loop: true
+                        })
+                        </script>
+
+                        <p class="iamfullpara">I,m a full stack developer with a passion for everything front-end.
+                            Welcome
+                            to my corner of the internet. I,m glad you're here!</p>
+                        <button class="resumebtn"><a onclick="openTab(this)" href="#"
+                                name="PDF/codewithgautamresume.pdf">Check out
+                                my CV</a></button>
+                        <script type="text/javascript">
+                        function openTab(th) {
+                            window.open(th.name, '_blank');
+                        }
+                        </script>
+                    </div>
+                    <a href="#about" class="scroll-down-arrow text-white smooth-scroll"><span class="animated"><i
+                                class="fa fa-chevron-down"></i></span></a>
+
+                </div>
+            </div>
+            <h1>More updates are coming soon...............</h1>
+            <h1>So be updated!</h1>
+           
+        </div>
+        <!-- </div> -->
+        <!-- </div> -->
     </div>
+
 
     <script type="text/javascript">
     const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')

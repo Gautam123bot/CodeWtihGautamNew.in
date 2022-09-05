@@ -17,6 +17,7 @@
         text-align: center;
         float: none;
     }
+
     .navbar {
         width: 100%;
         height: auto;
@@ -27,32 +28,57 @@
         display: none !important;
     }
 
-    .navbar a {
-        float: left;
-    }
-
     div.content {
         margin-left: 0;
     }
 
-    .navbar a {
-        text-align: center;
+    .navbar .alinkfont {
+        float: left;
         float: none;
+        margin-left: 18px;
+        margin-right: 18px;
         display: block;
+        border-bottom: 1px dotted #434343;
     }
 
     .navside {
-        position: fixed;
+        position: sticky;
+        top: 0;
         background: #111418;
+        z-index: 100;
     }
 
-    .content-column {
-        margin-top: 100px;
-    }
-    .navbar-brand {       
+   
+
+    .navbar-brand {
         color: whitesmoke;
-        font-size: 24px;
+        font-size: 21px;
         font-weight: 500;
         font-family: 'Rubik', sans-serif;
+        margin-left: 15px;
+    }
+
+    .social-contact {
+        position: absolute;
+        right: 60px;
+        top: 20px;
+    }
+
+    .social-contact i {
+        color: rgb(212, 212, 212);
+        font-size: 13px;
+        margin-left: 0px;
+        padding-left: 7px;
+        padding-right: 7px;
+        cursor: pointer;
+        transition: all 0.2s ease;
+    }
+
+    .main-margina {
+        margin-top: 20px;
+    }
+
+    .navbar-collapse {
+        background: rgba(0, 0, 0, 0.95);
     }
 }

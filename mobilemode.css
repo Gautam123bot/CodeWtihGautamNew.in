@@ -1,3 +1,13 @@
 @media screen and (max-width: 480px) {
-   
+    .iamgautam {
+        font-weight: bold;
+        font-size: 33px;
+        color: white;
+        margin: 0;
+        font-family: 'poppins', serif;
+        /* font-family: 'Arvo', serif; */
+        word-spacing: 2px;
+        position: relative;
+        display: inline-block;
+    }
 }
