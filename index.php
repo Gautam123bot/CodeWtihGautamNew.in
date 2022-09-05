@@ -115,15 +115,40 @@
                     </div>
                     <a href="#about" class="scroll-down-arrow text-white smooth-scroll"><span class="animated"><i
                                 class="fa fa-chevron-down"></i></span></a>
-
                 </div>
             </div>
-            <h1>More updates are coming soon...............</h1>
-            <h1>So be updated!</h1>
-           
+
+            <div class="about-section mt-4">
+                <div class="about-header">
+                    <p class="backabout">About Me</p>
+                    <p class="knowmemore">Know Me More</p>
+                    <span class="header-separator"></span>
+                </div>
+                <div class="container my-description">
+                    <div class="row gx-5">
+                        <div class="col-lg-7 col-xl-8">
+                            <h2 class="aweb">I'm <span>Gautam Kumar</span>, a Web Developer</h2><br>
+                            <p class="description-para">I help you build brand for your business at an affordable price.
+                                Thousands of clients have procured exceptional results while working with our dedicated
+                                team. when an unknown printer took a galley of type and scrambled it to make a type
+                                specimen book.</p>
+                            <p class="description-para">Delivering work within time and budget which meets client’s
+                                requirements is our moto. Lorem Ipsum has been the industry's standard dummy text ever
+                                when an unknown printer took a galley.</p>
+                        </div>
+                        <div class="col-lg-5 col-xl-4 p-4">
+                            <p class="myname"><label for="">Name: &nbsp;</label> Gautam Kumar</p>
+                            <p class="myname myemail"><label for="">Email: &nbsp;</label> chat@codewithgautam.in</p>
+                            <p class="myname"><label for="">Age: &nbsp;</label> 19</p>
+                            <p class="myname border-0"><label for="">From: &nbsp;</label> Darbhanga, Bihar</p>
+                            <button class="download-cv">Download CV</button>
+                        </div>
+                    </div>
+                </div>
+                <br><br><br><br>
+            </div>
+
         </div>
-        <!-- </div> -->
-        <!-- </div> -->
     </div>
 
 

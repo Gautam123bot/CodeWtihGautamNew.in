@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
 /* -----------------------------------------------Start of toggler design------------------------------------ */
 
@@ -298,9 +299,116 @@ div.content {
     }
 }
 
-.auto-type{
+.auto-type {
     color: #00e5b0a1;
 }
-.typed-cursor{
+
+.typed-cursor {
     color: #01eab3a1;
+}
+
+.backabout {
+    font-family: 'arvo', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    margin-top: 40px;
+    font-weight: bolder;
+    font-size: 120px;
+    text-align: center;
+    opacity: 0.1;
+    color: gray;
+}
+
+.about-section {
+    position: relative;
+}
+
+.knowmemore {
+    position: absolute;
+    top: 60px;
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    text-align: center;
+    display: block;
+    width: 100%;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    margin: 0;
+}
+
+.header-separator {
+    background: green;
+    height: 1px;
+}
+
+.header-separator {
+    /* border: 2px solid #00bda0; */
+    height: 3px;
+    background: #00bda0;
+    width: 80px;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    left: 47%;
+    top: 115px;
+    border-radius: 61px;
+}
+
+.my-description {
+    margin-top: 50px;
+}
+
+.aweb {
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+    color: rgb(35, 35, 35);
+}
+
+.aweb span {
+    color: #00c2a5;
+}
+
+.description-para {
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: rgb(57, 57, 57);
+}
+
+.myname {
+    border-bottom: 1px dotted rgb(176, 176, 176);
+    font-family: 'poppins', sans-serif;
+    font-size: 17px;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+.myname label {
+    font-weight: 600;
+    color: rgb(35, 35, 35) !important;
+}
+
+.myemail {
+    color: #00bda0;
+}
+
+.download-cv {
+    padding: 14px 37px;
+    background: #00c4a6;
+    font-family: 'poppins', sans-serif;
+    border: none;
+    border-radius: 38px;
+    font-weight: 500;
+    font-size: 17px;
+    color: whitesmoke;
+    box-shadow: 3px 3px 10px -2px #00bda0;
+    transition: all 0.5s ease;
+}
+
+.download-cv:hover {
+    box-shadow: 5px 3px 10px 1px #009c84;
+    background: #00a68d;
 }

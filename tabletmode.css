@@ -48,7 +48,7 @@
         z-index: 100;
     }
 
-   
+
 
     .navbar-brand {
         color: whitesmoke;
@@ -80,5 +80,75 @@
 
     .navbar-collapse {
         background: rgba(0, 0, 0, 0.95);
+    }
+
+    .inner-content {
+        min-height: 92vh !important;
+        max-width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .hero-bg {
+        background-image: url(img/intro-bg1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center 0px;
+        min-height: 92vh !important;
+        max-width: 100vw;
+    }
+
+    .my-img-down {
+        max-width: 120px !important;
+        /* display: block; */
+        outline: 7px solid #00d8a6a1;
+        border-radius: 50%;
+        border: 1px solid #ffe2e2;
+        outline-offset: 5px;
+        /* margin: 0 auto; */
+    }
+
+    .backabout {
+        font-family: 'arvo', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        margin-top: 40px;
+        font-weight: bolder;
+        font-size: 75px !important;
+        text-align: center;
+        opacity: 0.1;
+        color: gray;
+    }
+
+    .header-separator {
+        /* border: 2px solid #00bda0; */
+        height: 3px;
+        background: #00bda0;
+        width: 80px;
+        display: block;
+        margin: 0 auto;
+        position: absolute;
+        text-align: center;
+        left: 45%;
+        top: 80px !important;
+        border-radius: 61px;
+    }
+
+    .knowmemore {
+        position: absolute;
+        top: 30px !important;
+        font-family: 'poppins', sans-serif;
+        font-size: 35px;
+        text-align: center;
+        display: block;
+        width: 100%;
+        font-weight: 600;
+        letter-spacing: 1px;
+        word-spacing: 1px;
+        margin: 0;
     }
 }
