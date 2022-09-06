@@ -140,6 +140,10 @@ div.content {
     letter-spacing: 1px;
 }
 
+.active{
+    color: #00bda0 !important;
+}
+
 .navbar-collapse a:last-child {
     border: none;
 }
@@ -322,14 +326,15 @@ div.content {
 
 .about-section {
     position: relative;
+    padding-top: 40px;
 }
 
 .knowmemore {
     position: absolute;
-    top: 60px;
+    top: 135px;
     font-family: 'poppins', sans-serif;
     font-weight: 600;
-    font-size: 35px;
+    font-size: 38px;
     text-align: center;
     display: block;
     width: 100%;
@@ -353,7 +358,7 @@ div.content {
     position: absolute;
     text-align: center;
     left: 47%;
-    top: 115px;
+    top: 190px;
     border-radius: 61px;
 }
 
@@ -396,7 +401,7 @@ div.content {
 }
 
 .download-cv {
-    padding: 14px 37px;
+    padding: 14px 0px;
     background: #00c4a6;
     font-family: 'poppins', sans-serif;
     border: none;
@@ -406,9 +411,60 @@ div.content {
     color: whitesmoke;
     box-shadow: 3px 3px 10px -2px #00bda0;
     transition: all 0.5s ease;
+    margin-bottom: 55px;
+}
+.download-cv a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 14px 37px;
 }
 
 .download-cv:hover {
     box-shadow: 5px 3px 10px 1px #009c84;
     background: #00a68d;
+    color: white;
 }
+
+
+
+.services-section {
+    position: relative;
+    padding-bottom: 50px;
+    padding-top: 40px;
+}
+
+.icon-des i {
+    color: #00c8aa;
+    font-size: 31px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 0px 7px 1px #e8e8e8;
+    margin-bottom: 25px;
+    border-radius: 7px;
+}
+
+.icon-des {
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    padding-bottom: 0;
+}
+
+.icon-des-content {
+    /* max-width: 80%; */
+    display: inline-block;
+    padding: 25px;
+    font-family: 'poppins', sans-serif;
+}
+
+.services-section-contain {
+    max-width: 1100px;
+}
+.services-section-row{
+    max-width: 100%;
+}
+
+

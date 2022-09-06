@@ -44,11 +44,14 @@
         <a href="#contact">Contact</a>
     </div> -->
 
+
+
+
     <div class="container-fluid main-contain p-0">
         <!-- <div class="row"> -->
         <!-- <div class="col-lg-3 col-md-3 col-12 p-0 firstcol"> -->
         <div class="whole navside">
-            <div class="navbar navbar-expand-md">
+            <div class="navbar navbar-expand-md" id="navbar-example2">
                 <a class="navbar-brand text-center" href="#">Gautam Kumar</a>
                 <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -60,13 +63,13 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- <div class="sidebar"> -->
                     <img src="img/profile_photo.jpeg" alt="" class="img-responsive my-img">
-                    <a class="active main-margina alinkfont" href="#home">Home</a>
-                    <a href="#news" class="alinkfont">About Me</a>
-                    <a href="#" class="alinkfont">What I Do</a>
-                    <a href="#" class="alinkfont">Resume</a>
-                    <a href="#" class="alinkfont">Portfolio</a>
-                    <a href="#about" class="alinkfont">Testimonial</a>
-                    <a href="#contact" class="alinkfont">Contact</a>
+                    <a class="active main-margina alinkfont smooth-scroll" href="#home">Home</a>
+                    <a href="#about" class="alinkfont smooth-scroll">About Me</a>
+                    <a href="#services" class="alinkfont smooth-scroll">What I Do</a>
+                    <a href="#resume" class="alinkfont smooth-scroll">Resume</a>
+                    <a href="#portfolio" class="alinkfont smooth-scroll">Portfolio</a>
+                    <a href="#testimonial" class="alinkfont smooth-scroll">Testimonial</a>
+                    <a href="#contact" class="alinkfont smooth-scroll">Contact</a>
                     <!-- </div> -->
                 </div>
             </div>
@@ -85,69 +88,222 @@
 
         <!-- <div class="col-lg-9 col-md-9 col-12 p-0 secondcol"> -->
         <div class="content">
-            <div class="hero-bg">
-                <div class="inner-content">
-                    <div class="inn-content p-4">
-                        <img src="img/profile_photo.jpeg" alt="" class="img-responsive my-img-down">
-                        <p class="hey_there">Hey There,</p>
-                        <p class="iamgautam">I'm a <span class="auto-type"></span></p>
+            <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example"
+                tabindex="0">
 
-                        <script>
-                        var typed = new Typed(".auto-type", {
-                            strings: ["Coder.", "Programmer.", "Developer."],
-                            typeSpeed: 150,
-                            backSpeed: 150,
-                            loop: true
-                        })
-                        </script>
+                <div class="hero-bg" id="home">
+                    <div class="inner-content">
+                        <div class="inn-content p-4">
+                            <img src="img/profile_photo.jpeg" alt="" class="img-responsive my-img-down">
+                            <p class="hey_there">Hey There,</p>
+                            <p class="iamgautam">I'm a <span class="auto-type"></span></p>
 
-                        <p class="iamfullpara">I,m a full stack developer with a passion for everything front-end.
-                            Welcome
-                            to my corner of the internet. I,m glad you're here!</p>
-                        <button class="resumebtn"><a onclick="openTab(this)" href="#"
-                                name="PDF/codewithgautamresume.pdf">Check out
-                                my CV</a></button>
-                        <script type="text/javascript">
-                        function openTab(th) {
-                            window.open(th.name, '_blank');
-                        }
-                        </script>
-                    </div>
-                    <a href="#about" class="scroll-down-arrow text-white smooth-scroll"><span class="animated"><i
-                                class="fa fa-chevron-down"></i></span></a>
-                </div>
-            </div>
+                            <script>
+                            var typed = new Typed(".auto-type", {
+                                strings: ["Coder.", "Programmer.", "Developer."],
+                                typeSpeed: 150,
+                                backSpeed: 150,
+                                loop: true
+                            })
+                            </script>
 
-            <div class="about-section mt-4">
-                <div class="about-header">
-                    <p class="backabout">About Me</p>
-                    <p class="knowmemore">Know Me More</p>
-                    <span class="header-separator"></span>
-                </div>
-                <div class="container my-description">
-                    <div class="row gx-5">
-                        <div class="col-lg-7 col-xl-8">
-                            <h2 class="aweb">I'm <span>Gautam Kumar</span>, a Web Developer</h2><br>
-                            <p class="description-para">I help you build brand for your business at an affordable price.
-                                Thousands of clients have procured exceptional results while working with our dedicated
-                                team. when an unknown printer took a galley of type and scrambled it to make a type
-                                specimen book.</p>
-                            <p class="description-para">Delivering work within time and budget which meets client’s
-                                requirements is our moto. Lorem Ipsum has been the industry's standard dummy text ever
-                                when an unknown printer took a galley.</p>
+                            <p class="iamfullpara">I,m a full stack developer with a passion for everything front-end.
+                                Welcome
+                                to my corner of the internet. I,m glad you're here!</p>
+                            <button class="resumebtn"><a onclick="openTab(this)" href="#"
+                                    name="PDF/codewithgautamresume.pdf">Check out
+                                    my CV</a></button>
+                            <script type="text/javascript">
+                            function openTab(th) {
+                                window.open(th.name, '_blank');
+                            }
+                            </script>
                         </div>
-                        <div class="col-lg-5 col-xl-4 p-4">
-                            <p class="myname"><label for="">Name: &nbsp;</label> Gautam Kumar</p>
-                            <p class="myname myemail"><label for="">Email: &nbsp;</label> chat@codewithgautam.in</p>
-                            <p class="myname"><label for="">Age: &nbsp;</label> 19</p>
-                            <p class="myname border-0"><label for="">From: &nbsp;</label> Darbhanga, Bihar</p>
-                            <button class="download-cv">Download CV</button>
-                        </div>
+                        <a href="#about" class="scroll-down-arrow text-white smooth-scroll"><span class="animated"><i
+                                    class="fa fa-chevron-down"></i></span></a>
                     </div>
                 </div>
-                <br><br><br><br>
-            </div>
 
+                <div id="about">
+                    <div class="about-section mt-4">
+                        <div class="about-header">
+                            <p class="backabout">About Me</p>
+                            <p class="knowmemore">Know Me More</p>
+                            <span class="header-separator"></span>
+                        </div>
+                        <div class="container my-description">
+                            <div class="row gx-5 services-section-row">
+                                <div class="col-lg-7 col-xl-8 mobile-text-center">
+                                    <h2 class="aweb">I'm <span>Gautam Kumar</span>, a Web Developer</h2><br>
+                                    <p class="description-para">I help you build brand for your business at an
+                                        affordable
+                                        price.
+                                        Thousands of clients have procured exceptional results while working with our
+                                        dedicated
+                                        team. when an unknown printer took a galley of type and scrambled it to make a
+                                        type
+                                        specimen book.</p>
+                                    <p class="description-para">Delivering work within time and budget which meets
+                                        client’s
+                                        requirements is our moto. Lorem Ipsum has been the industry's standard dummy
+                                        text
+                                        ever
+                                        when an unknown printer took a galley.</p>
+                                </div>
+                                <div class="col-lg-5 col-xl-4 p-4">
+                                    <p class="myname"><label for="">Name: &nbsp;</label> Gautam Kumar</p>
+                                    <p class="myname myemail"><label for="">Email: &nbsp;</label> chat@codewithgautam.in
+                                    </p>
+                                    <p class="myname"><label for="">Age: &nbsp;</label> 19</p>
+                                    <p class="myname border-0"><label for="">From: &nbsp;</label> Darbhanga, Bihar</p>
+                                    <button class="download-cv"><a onclick="openTab(this)" href=""
+                                            name="PDF/codewithgautamresume.pdf">Download CV</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="services">
+                    <div class="services-section bg-light">
+                        <div class="about-header">
+                            <p class="backabout">Services</p>
+                            <p class="knowmemore">What I Do?</p>
+                            <span class="header-separator"></span>
+                        </div>
+                        <div class="container services-section-contain">
+                            <div class="row gx-5 services-section-row">
+                                <div class="col-lg-6 col-12 pe-0">
+                                    <div class="icon-des">
+                                        <i class="fa-solid fa-palette"></i>
+                                        <div class="icon-des-content">
+                                            <h5>Graphic Design</h5>
+                                            <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea
+                                                essent
+                                                possim iriure.</p>
+                                        </div>
+                                    </div>
+                                    <div class="icon-des">
+                                        <i class="fa-solid fa-pen-ruler"></i>
+                                        <div class="icon-des-content">
+                                            <h5>UI/UX Design</h5>
+                                            <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea
+                                                essent
+                                                possim iriure.</p>
+                                        </div>
+                                    </div>
+                                    <div class="icon-des">
+                                        <i class="fa-solid fa-chart-area"></i>
+                                        <div class="icon-des-content">
+                                            <h5>Business Analysis</h5>
+                                            <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea
+                                                essent
+                                                possim iriure.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-12">
+                                    <div class="icon-des">
+                                        <i class="fa-solid fa-desktop"></i>
+                                        <div class="icon-des-content">
+                                            <h5>Web Design</h5>
+                                            <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea
+                                                essent
+                                                possim iriure.</p>
+                                        </div>
+                                    </div>
+                                    <div class="icon-des">
+                                        <i class="fa-solid fa-paintbrush"></i>
+                                        <div class="icon-des-content">
+                                            <h5>App Design & Develop</h5>
+                                            <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea
+                                                essent
+                                                possim iriure.</p>
+                                        </div>
+                                    </div>
+                                    <div class="icon-des">
+                                        <i class="fa-solid fa-bullhorn"></i>
+                                        <div class="icon-des-content">
+                                            <h5>SEO Marketing</h5>
+                                            <p>Lisque persius interesset his et, in quot quidam persequeris vim, ad mea
+                                                essent
+                                                possim iriure.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="resume">
+                    <h1>Fourth id</h1>
+                    <h1>Fourth id</h1>
+                    <h1>Fourth id</h1>
+                    <h1>Fourth id</h1>
+                    <h1>Fourth id</h1>
+                    <h1>Fourth id</h1>
+                    <h1>Fourth id</h1>
+                    <h1>Fourth id</h1>
+                    <h1>Fourth id</h1>
+                    <h1>Fourth id</h1>
+                    <h1>Fourth id</h1>
+                    <h1>Fourth id</h1>
+                    <h1>Fourth id</h1>
+                    <h1>Fourth id</h1>
+                    <h1>Fourth id</h1>
+                </div>
+                <div id="portfolio">
+                    <h1>Fifth id</h1>
+                    <h1>Fifth id</h1>
+                    <h1>Fifth id</h1>
+                    <h1>Fifth id</h1>
+                    <h1>Fifth id</h1>
+                    <h1>Fifth id</h1>
+                    <h1>Fifth id</h1>
+                    <h1>Fifth id</h1>
+                    <h1>Fifth id</h1>
+                    <h1>Fifth id</h1>
+                    <h1>Fifth id</h1>
+                    <h1>Fifth id</h1>
+                </div>
+                <div id="testimonial">
+                    <h1>Sixth id</h1>
+                    <h1>Sixth id</h1>
+                    <h1>Sixth id</h1>
+                    <h1>Sixth id</h1>
+                    <h1>Sixth id</h1>
+                    <h1>Sixth id</h1>
+                    <h1>Sixth id</h1>
+                    <h1>Sixth id</h1>
+                    <h1>Sixth id</h1>
+                    <h1>Sixth id</h1>
+                    <h1>Sixth id</h1>
+                    <h1>Sixth id</h1>
+                    <h1>Sixth id</h1>
+                </div>
+                <div id="contact">
+                    <h1>Seventh id</h1>
+                    <h1>Seventh id</h1>
+                    <h1>Seventh id</h1>
+                    <h1>Seventh id</h1>
+                    <h1>Seventh id</h1>
+                    <h1>Seventh id</h1>
+                    <h1>Seventh id</h1>
+                    <h1>Seventh id</h1>
+                    <h1>Seventh id</h1>
+                    <h1>Seventh id</h1>
+                    <h1>Seventh id</h1>
+                    <h1>Seventh id</h1>
+                    <h1>Seventh id</h1>
+                    <h1>Seventh id</h1>
+                    <h1>Seventh id</h1>
+                    <h1>Seventh id</h1>
+                </div>
+
+
+
+            </div>
         </div>
     </div>
 

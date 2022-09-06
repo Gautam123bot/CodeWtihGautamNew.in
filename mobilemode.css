@@ -26,7 +26,7 @@
 
     .knowmemore {
         position: absolute;
-        top: 10px !important;
+        top: 87px !important;
         font-family: 'poppins', sans-serif;
         font-size: 35px;
         text-align: center;
@@ -48,7 +48,27 @@
         position: absolute;
         text-align: center;
         left: 39%;
-        top: 61px !important;
+        top: 135px !important;
         border-radius: 61px;
+    }
+
+    .icon-des {
+        margin-bottom: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 5px !important;
+    }
+
+    .icon-des-content {
+        display: inline-block;
+        padding: 19px !important;
+        font-family: 'poppins', sans-serif;
+        padding-right: 0px !important;
+        text-align: justify;
+    }
+
+    .mobile-text-center {
+        text-align: center !important
     }
 }
