@@ -80,6 +80,9 @@
 
     .navbar-collapse {
         background: rgba(0, 0, 0, 0.95);
+        position: absolute;
+        top: 62px;
+        width: 100%;
     }
 
     .inner-content {

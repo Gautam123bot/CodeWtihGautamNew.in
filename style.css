@@ -8,6 +8,11 @@
 
 /* -----------------------------------------------Start of toggler design------------------------------------ */
 
+html {
+    /*For smooth scrolling behavior*/
+    scroll-behavior: smooth;
+}
+
 .navbar-toggler {
     border: 0;
     padding: 15px 15px;
@@ -138,10 +143,14 @@ div.content {
     font-weight: 400;
     font-size: 19px;
     letter-spacing: 1px;
+    transition: all 0.2s ease;
 }
 
-.active{
+.navbar-collapse a.active{
     color: #00bda0 !important;
+}
+.navbar-collapse a:hover {
+    color: #00bda0;
 }
 
 .navbar-collapse a:last-child {

@@ -29,6 +29,25 @@
     <script src="https://kit.fontawesome.com/b90099deb6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="jquery/jquery-3.6.1.min.js"></script>
+
+
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+
+
+
+
+
+
 
 </head>
 
@@ -63,7 +82,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- <div class="sidebar"> -->
                     <img src="img/profile_photo.jpeg" alt="" class="img-responsive my-img">
-                    <a class="active main-margina alinkfont smooth-scroll" href="#home">Home</a>
+                    <a href="#home" class="active main-margina alinkfont smooth-scroll">Home</a>
                     <a href="#about" class="alinkfont smooth-scroll">About Me</a>
                     <a href="#services" class="alinkfont smooth-scroll">What I Do</a>
                     <a href="#resume" class="alinkfont smooth-scroll">Resume</a>
@@ -91,40 +110,43 @@
             <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example"
                 tabindex="0">
 
-                <div class="hero-bg" id="home">
-                    <div class="inner-content">
-                        <div class="inn-content p-4">
-                            <img src="img/profile_photo.jpeg" alt="" class="img-responsive my-img-down">
-                            <p class="hey_there">Hey There,</p>
-                            <p class="iamgautam">I'm a <span class="auto-type"></span></p>
+                <div id="home" class="page-section">
+                    <div class="hero-bg">
+                        <div class="inner-content">
+                            <div class="inn-content p-4">
+                                <img src="img/profile_photo.jpeg" alt="" class="img-responsive my-img-down">
+                                <p class="hey_there">Hey There,</p>
+                                <p class="iamgautam">I'm a <span class="auto-type"></span></p>
 
-                            <script>
-                            var typed = new Typed(".auto-type", {
-                                strings: ["Coder.", "Programmer.", "Developer."],
-                                typeSpeed: 150,
-                                backSpeed: 150,
-                                loop: true
-                            })
-                            </script>
+                                <script>
+                                var typed = new Typed(".auto-type", {
+                                    strings: ["Coder.", "Programmer.", "Developer."],
+                                    typeSpeed: 150,
+                                    backSpeed: 150,
+                                    loop: true
+                                })
+                                </script>
 
-                            <p class="iamfullpara">I,m a full stack developer with a passion for everything front-end.
-                                Welcome
-                                to my corner of the internet. I,m glad you're here!</p>
-                            <button class="resumebtn"><a onclick="openTab(this)" href="#"
-                                    name="PDF/codewithgautamresume.pdf">Check out
-                                    my CV</a></button>
-                            <script type="text/javascript">
-                            function openTab(th) {
-                                window.open(th.name, '_blank');
-                            }
-                            </script>
+                                <p class="iamfullpara">I,m a full stack developer with a passion for everything
+                                    front-end.
+                                    Welcome
+                                    to my corner of the internet. I,m glad you're here!</p>
+                                <button class="resumebtn"><a onclick="openTab(this)" href="#"
+                                        name="PDF/codewithgautamresume.pdf">Check out
+                                        my CV</a></button>
+                                <script type="text/javascript">
+                                function openTab(th) {
+                                    window.open(th.name, '_blank');
+                                }
+                                </script>
+                            </div>
+                            <a href="#about" class="scroll-down-arrow text-white smooth-scroll"><span
+                                    class="animated"><i class="fa fa-chevron-down"></i></span></a>
                         </div>
-                        <a href="#about" class="scroll-down-arrow text-white smooth-scroll"><span class="animated"><i
-                                    class="fa fa-chevron-down"></i></span></a>
                     </div>
                 </div>
 
-                <div id="about">
+                <div id="about" class="page-section">
                     <div class="about-section mt-4">
                         <div class="about-header">
                             <p class="backabout">About Me</p>
@@ -164,7 +186,7 @@
                     </div>
                 </div>
 
-                <div id="services">
+                <div id="services" class="page-section">
                     <div class="services-section bg-light">
                         <div class="about-header">
                             <p class="backabout">Services</p>
@@ -236,7 +258,7 @@
                     </div>
                 </div>
 
-                <div id="resume">
+                <div id="resume" class="page-section">
                     <h1>Fourth id</h1>
                     <h1>Fourth id</h1>
                     <h1>Fourth id</h1>
@@ -253,7 +275,7 @@
                     <h1>Fourth id</h1>
                     <h1>Fourth id</h1>
                 </div>
-                <div id="portfolio">
+                <div id="portfolio" class="page-section">
                     <h1>Fifth id</h1>
                     <h1>Fifth id</h1>
                     <h1>Fifth id</h1>
@@ -267,7 +289,7 @@
                     <h1>Fifth id</h1>
                     <h1>Fifth id</h1>
                 </div>
-                <div id="testimonial">
+                <div id="testimonial" class="page-section">
                     <h1>Sixth id</h1>
                     <h1>Sixth id</h1>
                     <h1>Sixth id</h1>
@@ -282,7 +304,7 @@
                     <h1>Sixth id</h1>
                     <h1>Sixth id</h1>
                 </div>
-                <div id="contact">
+                <div id="contact" class="page-section">
                     <h1>Seventh id</h1>
                     <h1>Seventh id</h1>
                     <h1>Seventh id</h1>
@@ -312,6 +334,47 @@
     const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
     const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
     </script>
+
+
+    <!-- /* Code for changing active 
+link on clicking */ -->
+    <script>
+    var btns =
+        $("#navbarSupportedContent .alinkfont");
+
+    for (var i = 0; i < btns.length; i++) {
+        btns[i].addEventListener("click",
+            function() {
+                var current = document
+                    .getElementsByClassName("active");
+
+                current[0].className = current[0]
+                    .className.replace(" active", "");
+
+                this.className += " active";
+            });
+    }
+
+    /* Code for changing active 
+    link on Scrolling */
+    $(window).scroll(function() {
+        var distance = $(window).scrollTop();
+        $('.page-section').each(function(i) {
+
+            if ($(this).position().top <=
+                distance + 250) {
+
+                $('.navbar-collapse a.active')
+                    .removeClass('active');
+
+                $('.navbar-collapse a').eq(i)
+                    .addClass('active');
+            }
+        });
+    }).scroll();
+    </script>
+
+
 
 </body>
 
