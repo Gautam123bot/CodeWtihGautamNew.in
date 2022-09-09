@@ -259,21 +259,86 @@
                 </div>
 
                 <div id="resume" class="page-section">
-                    <h1>Fourth id</h1>
-                    <h1>Fourth id</h1>
-                    <h1>Fourth id</h1>
-                    <h1>Fourth id</h1>
-                    <h1>Fourth id</h1>
-                    <h1>Fourth id</h1>
-                    <h1>Fourth id</h1>
-                    <h1>Fourth id</h1>
-                    <h1>Fourth id</h1>
-                    <h1>Fourth id</h1>
-                    <h1>Fourth id</h1>
-                    <h1>Fourth id</h1>
-                    <h1>Fourth id</h1>
-                    <h1>Fourth id</h1>
-                    <h1>Fourth id</h1>
+                    <div class="resume-section">
+                        <div class="about-header">
+                            <p class="backabout">Summary</p>
+                            <p class="knowmemore">Resume</p>
+                            <span class="header-separator"></span>
+                        </div>
+
+                        <div class="container progress-bar-sec p-0">
+                            <div class="progress-bar-row row gx-5 ps-4">
+                                <div class="col-sm-12 col-md-12 col-lg-6 col-12">
+                                    <div class="progress-content">
+                                        <p class="progress-topic">Web Design</p>
+                                        <p class="progress-percentage">85%</p>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                                                aria-valuemin="0" aria-valuemax="100" style="width:85%">
+                                                <span class="sr-only">85% Complete</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="progress-content">
+                                        <p class="progress-topic">HTML/CSS Design</p>
+                                        <p class="progress-percentage">95%</p>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                                                aria-valuemin="0" aria-valuemax="100" style="width:95%">
+                                                <span class="sr-only">95% Complete</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="progress-content">
+                                        <p class="progress-topic">JavaScript</p>
+                                        <p class="progress-percentage">60%</p>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                                                aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                                                <span class="sr-only">60% Complete</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12 col-md-12 col-lg-6 col-12">
+                                    <div class="progress-content">
+                                        <p class="progress-topic">PHP</p>
+                                        <p class="progress-percentage">75%</p>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                                                aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                                                <span class="sr-only">75% Complete</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="progress-content">
+                                        <p class="progress-topic">Angular JS</p>
+                                        <p class="progress-percentage">60%</p>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                                                aria-valuemin="0" aria-valuemax="100" style="width:60%">
+                                                <span class="sr-only">60% Complete</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="progress-content">
+                                        <p class="progress-topic">Bootstrap</p>
+                                        <p class="progress-percentage">90%</p>
+                                        <div class="progress">
+                                            <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                                                aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                                                <span class="sr-only">90% Complete</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="download_resume"><a onclick="openTab(this)" href=""
+                                    name="PDF/codewithgautamresume.pdf">Download CV <i
+                                        class="fas fa-download"></a></i></button>
+                        </div>
+
+                    </div>
                 </div>
                 <div id="portfolio" class="page-section">
                     <h1>Fifth id</h1>
@@ -305,24 +370,67 @@
                     <h1>Sixth id</h1>
                 </div>
                 <div id="contact" class="page-section">
-                    <h1>Seventh id</h1>
-                    <h1>Seventh id</h1>
-                    <h1>Seventh id</h1>
-                    <h1>Seventh id</h1>
-                    <h1>Seventh id</h1>
-                    <h1>Seventh id</h1>
-                    <h1>Seventh id</h1>
-                    <h1>Seventh id</h1>
-                    <h1>Seventh id</h1>
-                    <h1>Seventh id</h1>
-                    <h1>Seventh id</h1>
-                    <h1>Seventh id</h1>
-                    <h1>Seventh id</h1>
-                    <h1>Seventh id</h1>
-                    <h1>Seventh id</h1>
-                    <h1>Seventh id</h1>
-                </div>
+                    <div class="contact-section bg-light">
+                        <div class="about-header">
+                            <p class="backabout">Contact</p>
+                            <p class="knowmemore">Get in Touch</p>
+                            <span class="header-separator"></span>
+                        </div>
 
+                        <div class="container contact-contain-section p-4">
+                            <div class="row contact-row">
+                                <div class="col-12 col-lg-3 contact-col1">
+                                    <div class="address">
+                                        <h4>Address</h4>
+                                        <p class="address-line">Neem Chowk Banglagardh, Darbhanga,<br> Bihar 846004.</p>
+                                        <br>
+                                        <p class="address-number"><i class="fas fa-phone"></i>&nbsp;&nbsp;(+91)
+                                            971&nbsp;132&nbsp;9779</p>
+
+                                        <p class="address-number"><i class="fas fa-fax"></i>&nbsp;&nbsp;(+91)
+                                            971&nbsp;132&nbsp;9779</p>
+                                        <p class="address-number"><i
+                                                class="fas fa-envelope"></i>&nbsp;&nbsp;chat@codewithgautam.in
+                                        </p>
+                                        <h4 class="follow-me">Follow Me</h4>
+                                        <div class="follow-me-icon">
+                                            <a href="#"><i class="fab fa-github"></i></a>
+                                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                            <a href="#"><i class="fab fa-twitter"></i></a>
+                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                            <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-lg-9 contact-col2">
+                                    <form action="">
+                                        <p class="send_note">Send us a Note</p>
+                                        <div class="row">
+                                            <div class="col-12 col-lg-6">
+                                                <input class="form-control" type="text" name="name" id=""
+                                                    placeholder="Name">
+                                            </div>
+                                            <div class="col-12 col-lg-6">
+                                                <input class="form-control" type="email" name="email" id=""
+                                                    placeholder="Email">
+                                            </div>
+                                        </div>
+                                        <textarea class="form-control" name="tell" id="" cols="30" rows="5"
+                                            placeholder="Tell us more about yourself........."></textarea>
+                                        <input type="button" class="send_msg_button" value="Send message">
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="footer">
+                        <div class="container">
+                            <p class="copyright_para">Copyright © 2022 Simone. All Rights Reserved.</p>
+                            <p class="term_policy">Terms & Policy &nbsp;|&nbsp; Disclaimer</p>
+                        </div>
+                    </div>
+                </div>
 
 
             </div>

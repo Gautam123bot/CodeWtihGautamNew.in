@@ -154,4 +154,15 @@
         word-spacing: 1px;
         margin: 0;
     }
+    .contact-row{
+        flex-direction: column-reverse;
+    }
+    .contact-col1{
+        margin-top: 50px;
+        text-align: center;
+    }
+    .contact-col2{
+        margin-top: 20px;
+        text-align: center;
+    }
 }
