@@ -1,0 +1,12 @@
+
+
+
+.project-title{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'poppins',sans-serif;
+    margin-bottom: 50px;
+}
+.project-img{
+    max-width: 100%;
+}
