@@ -60,13 +60,13 @@
 
     .social-contact {
         position: absolute;
-        right: 60px;
+        right: 67px;
         top: 20px;
     }
 
     .social-contact i {
         color: rgb(212, 212, 212);
-        font-size: 13px;
+        font-size: 14px;
         margin-left: 0px;
         padding-left: 7px;
         padding-right: 7px;
@@ -154,15 +154,31 @@
         word-spacing: 1px;
         margin: 0;
     }
-    .contact-row{
+
+    .contact-row {
         flex-direction: column-reverse;
     }
-    .contact-col1{
+
+    .contact-col1 {
         margin-top: 50px;
         text-align: center;
     }
-    .contact-col2{
+
+    .contact-col2 {
         margin-top: 20px;
         text-align: center;
     }
+
+    .copyright_para {
+        text-align: center !important;
+        font-size: 16px;
+        float: none;
+    }
+
+    .term_policy {
+        text-align: center !important;
+        font-size: 16px;
+        float: none;
+    }
+   
 }

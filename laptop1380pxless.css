@@ -1,0 +1,5 @@
+@media all and (max-width: 1380px) {
+    .testimonial-sec-contain {
+        max-width: 700px;
+    }
+}

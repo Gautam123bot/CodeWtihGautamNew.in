@@ -24,18 +24,19 @@
     <link rel="stylesheet" href="laptopmode.css">
     <link rel="stylesheet" href="tabletmode.css">
     <link rel="stylesheet" href="mobilemode.css">
+    <link rel="stylesheet" href="laptop1380pxless.css">
     <script src="app.js"></script>
     <link rel="icon" type="image/x-icon" href="img/profile_photo.jpeg">
     <script src="https://kit.fontawesome.com/b90099deb6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
     <script src="jquery/jquery-3.6.1.min.js"></script>
 
-
-
-
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
 
@@ -45,9 +46,33 @@
 
 
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 
 
+    <!-- fancybox -->
+    <link rel='stylesheet prefetch'
+        href='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css'>
+    <!-- magnific-popup -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
+
+    <!-- Mixitup -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.2.2/mixitup.min.js'></script>
+    <!-- fancybox -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.js'>
+    </script>
+    <!-- Fancybox js -->
 
 </head>
 
@@ -72,7 +97,7 @@
         <div class="whole navside">
             <div class="navbar navbar-expand-md" id="navbar-example2">
                 <a class="navbar-brand text-center" href="#">Gautam Kumar</a>
-                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                <button class="navbar-toggler collapsed me-2" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="toggler-icon top-bar"></span>
@@ -340,35 +365,369 @@
 
                     </div>
                 </div>
+
                 <div id="portfolio" class="page-section">
-                    <h1>Fifth id</h1>
-                    <h1>Fifth id</h1>
-                    <h1>Fifth id</h1>
-                    <h1>Fifth id</h1>
-                    <h1>Fifth id</h1>
-                    <h1>Fifth id</h1>
-                    <h1>Fifth id</h1>
-                    <h1>Fifth id</h1>
-                    <h1>Fifth id</h1>
-                    <h1>Fifth id</h1>
-                    <h1>Fifth id</h1>
-                    <h1>Fifth id</h1>
+                    <div class="portfolio-section bg-light">
+                        <div class="about-header">
+                            <p class="backabout">Portfolio</p>
+                            <p class="knowmemore">My Work</p>
+                            <span class="header-separator"></span>
+                        </div>
+
+                        <!-- <section class="portfolio-section-down" id="portfolio"> -->
+                        <section class="portfolio-section-down">
+                            <div class="container-fluid port-contain">                                
+                                <div class="portfolio-menu mt-2 mb-4">
+                                    <nav class="controls">
+                                        <button type="button" class="control outline" data-filter="all">All</button>
+                                        <button type="button" class="control outline" data-filter=".web">Projects</button>
+                                        <button type="button" class="control outline"
+                                            data-filter=".dev">Web Development</button>
+                                        <button type="button" class="control outline"
+                                            data-filter=".wp">WordPress</button>
+                                    </nav>
+                                </div>
+                                <ul class="row portfolio-item">
+                                    <li class="mix dev col-xl-4 col-md-4 col-12 col-sm-6 pd">
+                                        <img class="port-img" src="img/project-1.jpg"
+                                            itemprop="thumbnail" alt="Image description" />
+                                        <div class="portfolio-overlay">
+                                            <div class="overlay-content">
+                                                <p class="category">Project Name</p>
+                                                <a href="https://flipkart.com" title="View Project" target="_blank">
+                                                    <div class="magnify-icon">
+                                                        <p><span><i class="fa fa-link" aria-hidden="true"></i></span>
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                                <a data-fancybox="item" title="click to zoom-in"
+                                                    href="img/project-1.jpg">
+                                                    <div class="magnify-icon">
+                                                        <p><span><i class="fa fa-search" aria-hidden="true"></i></span>
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="mix web col-xl-4 col-md-4 col-12 col-sm-6 pd">
+                                        <img class="port-img" src="img/project-2.jpg"
+                                            itemprop="thumbnail" alt="Image description" />
+                                        <div class="portfolio-overlay">
+                                            <div class="overlay-content">
+                                                <p class="category">Project Name</p>
+                                                <a href="#" title="View Project" target="_blank">
+                                                    <div class="magnify-icon">
+                                                        <p><span><i class="fa fa-link" aria-hidden="true"></i></span>
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                                <a data-fancybox="item" title="click to zoom-in"
+                                                    href="img/project-2.jpg"
+                                                    data-size="1200x600">
+                                                    <div class="magnify-icon">
+                                                        <p><span><i class="fa fa-search" aria-hidden="true"></i></span>
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="mix wp col-xl-4 col-md-4 col-12 col-sm-6 pd">
+                                        <img class="port-img" src="img/project-3.jpg"
+                                            itemprop="thumbnail" alt="Image description" />
+                                        <div class="portfolio-overlay">
+                                            <div class="overlay-content">
+                                                <p class="category">Project Name</p>
+                                                <a href="#" title="View Project" target="_blank">
+                                                    <div class="magnify-icon">
+                                                        <p><span><i class="fa fa-link" aria-hidden="true"></i></span>
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                                <a data-fancybox="item" title="click to zoom-in"
+                                                    href="img/project-3.jpg"
+                                                    data-size="1200x600">
+                                                    <div class="magnify-icon">
+                                                        <p><span><i class="fa fa-search" aria-hidden="true"></i></span>
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="mix dev col-xl-4 col-md-4 col-12 col-sm-6 pd ">
+                                        <img class="port-img" src="img/project-4.jpg"
+                                            itemprop="thumbnail" alt="Image description" />
+                                        <div class="portfolio-overlay">
+                                            <div class="overlay-content">
+                                                <p class="category">Project Name</p>
+                                                <a href="#" title="View Project" target="_blank">
+                                                    <div class="magnify-icon">
+                                                        <p><span><i class="fa fa-link" aria-hidden="true"></i></span>
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                                <a data-fancybox="item" title="click to zoom-in"
+                                                    href="img/project-4.jpg"
+                                                    data-size="1200x600">
+                                                    <div class="magnify-icon">
+                                                        <p><span><i class="fa fa-search" aria-hidden="true"></i></span>
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="mix web col-xl-4 col-md-4 col-12 col-sm-6 pd ">
+                                        <img class="port-img" src="img/project-5.jpg"
+                                            itemprop="thumbnail" alt="Image description" />
+                                        <div class="portfolio-overlay">
+                                            <div class="overlay-content">
+                                                <p class="category">Project Name</p>
+                                                <a href="#" title="View Project" target="_blank">
+                                                    <div class="magnify-icon">
+                                                        <p><span><i class="fa fa-link" aria-hidden="true"></i></span>
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                                <a data-fancybox="item" title="click to zoom-in"
+                                                    href="img/project-5.jpg"
+                                                    data-size="1200x600">
+                                                    <div class="magnify-icon">
+                                                        <p><span><i class="fa fa-search" aria-hidden="true"></i></span>
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="mix wp col-xl-4 col-md-4 col-12 col-sm-6 pd ">
+                                        <img class="port-img" src="img/project-6.jpg"
+                                            itemprop="thumbnail" alt="Image description" />
+                                        <div class="portfolio-overlay">
+                                            <div class="overlay-content">
+                                                <p class="category">Project Name</p>
+                                                <a href="#" title="View Project" target="_blank">
+                                                    <div class="magnify-icon">
+                                                        <p><span><i class="fa fa-link" aria-hidden="true"></i></span>
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                                <a data-fancybox="item" title="click to zoom-in"
+                                                    href="img/project-6.jpg"
+                                                    data-size="1200x600">
+                                                    <div class="magnify-icon">
+                                                        <p><span><i class="fa fa-search" aria-hidden="true"></i></span>
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="mix dev col-xl-4 col-md-4 col-12 col-sm-6 pd">
+                                        <img class="port-img" src="img/project-7.jpg"
+                                            itemprop="thumbnail" alt="Image description" />
+                                        <div class="portfolio-overlay">
+                                            <div class="overlay-content">
+                                                <p class="category">Project Name</p>
+                                                <a href="#" title="View Project" target="_blank">
+                                                    <div class="magnify-icon">
+                                                        <p><span><i class="fa fa-link" aria-hidden="true"></i></span>
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                                <a data-fancybox="item" title="click to zoom-in"
+                                                    href="img/project-7.jpg"
+                                                    data-size="1200x600">
+                                                    <div class="magnify-icon">
+                                                        <p><span><i class="fa fa-search" aria-hidden="true"></i></span>
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </li>                                    
+                                </ul>
+                            </div>
+                        </section>
+
+
+
+
+                        <script>
+                        /*Downloaded from https://www.codeseek.co/ezra_siton/mixitup-fancybox3-JydYqm */
+                        // 1. querySelector
+                        var containerEl = document.querySelector(".portfolio-item");
+                        // 2. Passing the configuration object inline
+                        //https://www.kunkalabs.com/mixitup/docs/configuration-object/
+                        var mixer = mixitup(containerEl, {
+                            animation: {
+                                effects: "fade translateZ(-100px)",
+                                effectsIn: "fade translateY(-100%)",
+                                easing: "cubic-bezier(0.645, 0.045, 0.355, 1)"
+                            }
+                        });
+                        // fancybox insilaze & options //
+                        $("[data-fancybox]").fancybox({
+                            loop: true,
+                            hash: true,
+                            transitionEffect: "slide",
+                            /* zoom VS next////////////////////
+                            clickContent - i modify the deafult - now when you click on the image you go to the next image - i more like this approach than zoom on desktop (This idea was in the classic/first lightbox) */
+                            clickContent: function(current, event) {
+                                return current.type === "image" ? "next" : false;
+                            }
+                        });
+                        </script>
+
+
+                    </div>
                 </div>
+
                 <div id="testimonial" class="page-section">
-                    <h1>Sixth id</h1>
-                    <h1>Sixth id</h1>
-                    <h1>Sixth id</h1>
-                    <h1>Sixth id</h1>
-                    <h1>Sixth id</h1>
-                    <h1>Sixth id</h1>
-                    <h1>Sixth id</h1>
-                    <h1>Sixth id</h1>
-                    <h1>Sixth id</h1>
-                    <h1>Sixth id</h1>
-                    <h1>Sixth id</h1>
-                    <h1>Sixth id</h1>
-                    <h1>Sixth id</h1>
+                    <div class="testimonial-section">
+                        <div class="about-header">
+                            <p class="backabout">Testimonial</p>
+                            <p class="knowmemore">Client Speak</p>
+                            <span class="header-separator"></span>
+                        </div>
+
+                        <div class="testimonial-sec-contain container">
+                            <div class="owl-carousel owl-theme">
+                                <div class="item mx-2">
+                                    <div class="carouse-content carouse-content-index bg-light">
+                                        <img src="img/client-sm-2.jpg" alt="" class="img-responsive testiimg">
+                                        <p class="man-text">Suresh Kumar Singh</p>
+
+
+                                        <p class="small-position">Business
+                                            Development Jakson Ltd.
+                                        </p>
+                                        <p class="small-content">I am extremely happy with my
+                                            experience with
+                                            NoBroker
+                                            movers and packers team. Being a senior citizen
+                                            while
+
+                                        </p>
+                                        <div class="testi-ranking">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item mx-2">
+                                    <div class="carouse-content carouse-content-index bg-light">
+                                        <div class="right-quotee-div">
+                                        </div>
+                                        <img src="img/client-sm-2.jpg" alt="" class="img-responsive testiimg">
+                                        <p class="man-text">Naveen Reddy</p>
+
+
+                                        <p class="small-position">Visual Merchandiser</p>
+                                        <p class="small-content">Professionalism with quality
+                                            services is what you
+                                            get
+                                            with NoBroker Packers and Movers. Their entire team
+                                            including their
+                                            Movement
+
+                                            packers and movers services.</p>
+                                        <div class="testi-ranking">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star-half"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item mx-2">
+                                    <div class="carouse-content carouse-content-index bg-light">
+                                        <div class="right-quotee-div">
+                                        </div>
+                                        <img src="img/client-sm-2.jpg" alt="" class="img-responsive testiimg">
+                                        <p class="man-text">Naveen Reddy</p>
+
+
+                                        <p class="small-position">Visual Merchandiser</p>
+                                        <p class="small-content">Professionalism with quality
+                                            services is what you
+                                            get
+                                            with NoBroker Packers and Movers. Their entire team
+                                            including their
+                                            Movement
+
+                                            packers and movers services.</p>
+                                        <div class="testi-ranking">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star-half"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item mx-2">
+                                    <div class="carouse-content carouse-content-index bg-light">
+                                        <div class="right-quotee-div">
+                                        </div>
+                                        <img src="img/client-sm-2.jpg" alt="" class="img-responsive testiimg">
+                                        <p class="man-text">Naveen Reddy</p>
+
+
+                                        <p class="small-position">Visual Merchandiser</p>
+                                        <p class="small-content">Professionalism with quality
+                                            services is what you
+                                            get
+                                            with NoBroker Packers and Movers. Their entire team
+                                            including their
+                                            Movement
+
+                                            packers and movers services.</p>
+                                        <div class="testi-ranking">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star-half"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <script>
+                        $('.owl-carousel').owlCarousel({
+                            loop: true,
+                            margin: 10,
+                            nav: true,
+                            responsive: {
+                                0: {
+                                    items: 1
+                                },
+                                600: {
+                                    items: 1
+                                },
+                                1200: {
+                                    items: 1
+                                },
+                                1604: {
+                                    items: 2
+                                }
+                            }
+                        })
+                        </script>
+
+                    </div>
                 </div>
+
+
                 <div id="contact" class="page-section">
                     <div class="contact-section bg-light">
                         <div class="about-header">
@@ -382,7 +741,8 @@
                                 <div class="col-12 col-lg-3 contact-col1">
                                     <div class="address">
                                         <h4>Address</h4>
-                                        <p class="address-line">Neem Chowk Banglagardh, Darbhanga,<br> Bihar 846004.</p>
+                                        <p class="address-line">Neem Chowk Banglagardh, Darbhanga,<br> Bihar 846004.
+                                        </p>
                                         <br>
                                         <p class="address-number"><i class="fas fa-phone"></i>&nbsp;&nbsp;(+91)
                                             971&nbsp;132&nbsp;9779</p>
@@ -426,7 +786,7 @@
                     </div>
                     <div class="footer">
                         <div class="container">
-                            <p class="copyright_para">Copyright © 2022 Simone. All Rights Reserved.</p>
+                            <p class="copyright_para">Copyright © 2022 Gautam. All Rights Reserved.</p>
                             <p class="term_policy">Terms & Policy &nbsp;|&nbsp; Disclaimer</p>
                         </div>
                     </div>
