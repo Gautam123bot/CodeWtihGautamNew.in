@@ -1,12 +1,134 @@
+@media all and (max-width: 768px) {
+    .project-content {
+        padding: 47px 20px 45px 20px !important;
+    }
+}
 
 
-
-.project-title{
+.project-title {
     text-align: center;
     text-transform: uppercase;
-    font-family: 'poppins',sans-serif;
-    margin-bottom: 50px;
+    font-family: 'poppins', sans-serif;
+    margin-bottom: 70px;
+    word-spacing: 2px;
 }
-.project-img{
+
+.project-content {
+    padding: 0px 70px 0px 50px;
+}
+
+.project-content h4 {
+    font-family: 'poppins', sans-serif;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.project-img {
     max-width: 100%;
+    font-family: 'poppins', sans-serif;
+}
+
+.project-icon a {
+    padding-left: 18px;
+    font-size: 20px;
+    color: rgb(67, 67, 67);
+    font-family: 'poppins', sans-serif;
+}
+
+.project-label {
+    font-family: 'poppins', sans-serif;
+    font-size: 17px;
+    color: rgb(68, 68, 68);
+    padding-bottom: 5px;
+    border-bottom: 1px dotted rgb(97, 97, 97);
+}
+
+.project-label:last-child {
+    border-bottom: none;
+}
+
+.project-info-para {
+    font-family: 'poppins', sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    color: rgb(69, 69, 69);
+}
+
+.project-label label {
+    color: black !important;
+}
+
+.project-url {
+    color: rgb(0, 195, 136) !important;
+    font-size: 18px;
+}
+
+
+
+
+/* -**************************** project-2.php ******************* */
+
+
+
+.owl-theme .owl-nav {
+    margin-top: 10px;
+    visibility: visible !important;
+}
+
+.owl-nav .owl-prev {
+    position: absolute;
+    top: 40%;
+    left: 15px;
+    height: 42px;
+    width: 42px;
+    box-shadow: 0px 0px 9px -4px #4b4b4b;
+    border-radius: 50% !important;
+    background: whitesmoke !important;
+    opacity: 0;
+    transition: all 0.2s ease;
+
+}
+
+.owl-prev span {
+    font-size: 53px;
+    position: absolute;
+    top: -65%;
+    left: 11px;
+    color: black;
+}
+
+.owl-nav .owl-next {
+    position: absolute;
+    top: 40%;
+    right: 15px;
+    height: 42px;
+    width: 42px;
+    box-shadow: 0px 0px 9px -4px #4b4b4b;
+    border-radius: 50% !important;
+    background: whitesmoke !important;
+    opacity: 0;
+    transition: all 0.2s ease;
+
+}
+
+.owl-next span {
+    font-size: 53px;
+    position: absolute;
+    top: -65%;
+    right: 11px;
+    color: black;
+}
+
+.owl-dots {
+    position: absolute;
+    bottom: 12px;
+    left: 50%;
+}
+
+.owl-theme:hover .owl-nav .owl-prev {
+    opacity: 1;
+}
+
+.owl-theme:hover .owl-nav .owl-next {
+    opacity: 1;
 }

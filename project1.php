@@ -81,7 +81,7 @@
     <br><br><br>
     <div class="container-fluid main-contain p-0">
         <div class="content">
-            <div class="container">
+            <div class="container project-contain">
                 <h2 class="project-title">Project Title 1</h2>
                 <div class="row">
                     <div class="col-lg-6 col-sm-12 col-12">
@@ -94,38 +94,37 @@
                     <div class="col-lg-6 col-sm-12 col-12">
 
                         <div class="project-content">
-                            <div class="project-header">
-                                <h4>Project Info</h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem nesciunt
-                                    aspernatur, quas doloremque rerum minima aperiam voluptates officia dolores odit.
-                                    Lorem ipsum dolor sit amet.</p>
-                                <h4>Project Details</h4>
-                                <p><label>Client</label>Ruby Clinton</p>
-                                <p><label>Technologies</label>iOS, HTML5, CSS3, PHP, Java</p>
-                                <p><label>Industry</label>Art & Design</p>
-                                <p><label>Date</label>July 16, 2019</p>
-                                <p><label>URL</label>www.example.com</p>
-                                <p><label>Share</label>
-                                <div class="follow-me-icon">
-                                    <a href="#"><i class="fab fa-github"></i></a>
+                            <h4>Project Info:</h4>
+                            <p class="project-info-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                Voluptatem nesciunt
+                                aspernatur, quas doloremque rerum minima aperiam voluptates officia dolores odit.
+                                Lorem ipsum dolor sit amet.</p>
+                            <h4 class="mt-4">Project Details:</h4>
+                            <p class="project-label"><label>Client: &nbsp;&nbsp;</label>Ruby Clinton</p>
+                            <p class="project-label"><label>Technologies: &nbsp;&nbsp;</label>iOS, HTML5, CSS3, PHP, Java</p>
+                            <p class="project-label"><label>Industry: &nbsp;&nbsp;</label>Art & Design</p>
+                            <p class="project-label"><label>Date: &nbsp;&nbsp;</label>July 16, 2019</p>
+                            <p class="project-label"><label>URL: &nbsp;&nbsp;</label><span class="project-url">www.example.com</span></p>
+                            <p class="project-label"><label>Share: &nbsp;&nbsp;</label>
+                                <span class="project-icon">
+                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i class="fa-brands fa-telegram"></i></a>
                                     <a href="#"><i class="fa-brands fa-instagram"></i></a>
                                     <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
                                     <a href="#"><i class="fa-solid fa-envelope"></i></a>
-                                </div>
-                                </p>
-                            </div>
+                                </span>
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="footer">
-                <div class="container">
+            <!-- <div class="footer" style="padding-top: 0px; background: #ffd596">
+                <div class="container" style="display: block; margin: 0 auto;">
                     <p class="copyright_para">Copyright © 2022 Gautam. All Rights Reserved.</p>
                     <p class="term_policy">Terms & Policy &nbsp;|&nbsp; Disclaimer</p>
                 </div>
 
-            </div>
+            </div> -->
         </div>
     </div>
 
