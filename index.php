@@ -36,7 +36,7 @@
     <script src="jquery/jquery-3.6.1.min.js"></script>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js"
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
 
@@ -73,6 +73,10 @@
     <script src='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.js'>
     </script>
     <!-- Fancybox js -->
+
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
 </head>
 
@@ -137,11 +141,12 @@
 
                 <div id="home" class="page-section">
                     <div class="hero-bg">
+                        <!-- <img src="img/github_octocat.png" alt="" class="img-responsive"> -->
                         <div class="inner-content">
                             <div class="inn-content p-4">
-                                <img src="img/profile_photo.jpeg" alt="" class="img-responsive my-img-down">
-                                <p class="hey_there">Hey There,</p>
-                                <p class="iamgautam">I'm a <span class="auto-type"></span></p>
+                                <img src="img/profile_photo.jpeg" alt="" class="img-responsive my-img-down" data-aos="zoom-in-down" data-aos-duration="3000">
+                                <p class="hey_there" data-aos="zoom-in-down" data-aos-duration="3000">Hey There,</p>
+                                <p class="iamgautam" data-aos="zoom-in-down" data-aos-duration="3000">I'm a <span class="auto-type"></span></p>
 
                                 <script>
                                 var typed = new Typed(".auto-type", {
@@ -152,11 +157,11 @@
                                 })
                                 </script>
 
-                                <p class="iamfullpara">I,m a full stack developer with a passion for everything
+                                <p class="iamfullpara" data-aos="flip-left" data-aos-duration="3000">I,m a full stack developer with a passion for everything
                                     front-end.
                                     Welcome
                                     to my corner of the internet. I,m glad you're here!</p>
-                                <button class="resumebtn"><a onclick="openTab(this)" href="#"
+                                <button class="resumebtn" data-aos="zoom-out-up" data-aos-duration="3000"><a onclick="openTab(this)" href="#"
                                         name="PDF/codewithgautamresume.pdf">Check out
                                         my CV</a></button>
                                 <script type="text/javascript">
@@ -173,14 +178,14 @@
 
                 <div id="about" class="page-section">
                     <div class="about-section mt-4">
-                        <div class="about-header">
+                        <div class="about-header" data-aos="fade-down">
                             <p class="backabout">About Me</p>
                             <p class="knowmemore">Know Me More</p>
                             <span class="header-separator"></span>
                         </div>
                         <div class="container my-description">
                             <div class="row gx-5 services-section-row">
-                                <div class="col-lg-7 col-xl-8 mobile-text-center">
+                                <div class="col-lg-7 col-xl-8 mobile-text-center" data-aos="fade-up-right">
                                     <h2 class="aweb">I'm <span>Gautam Kumar</span>, a Web Developer</h2><br>
                                     <p class="description-para">I help you build brand for your business at an
                                         affordable
@@ -197,7 +202,7 @@
                                         ever
                                         when an unknown printer took a galley.</p>
                                 </div>
-                                <div class="col-lg-5 col-xl-4 p-4">
+                                <div class="col-lg-5 col-xl-4 p-4" data-aos="fade-up-left">
                                     <p class="myname"><label for="">Name: &nbsp;</label> Gautam Kumar</p>
                                     <p class="myname myemail"><label for="">Email: &nbsp;</label> chat@codewithgautam.in
                                     </p>
@@ -213,14 +218,14 @@
 
                 <div id="services" class="page-section">
                     <div class="services-section bg-light">
-                        <div class="about-header">
+                        <div class="about-header" data-aos="fade-down" data-aos-duration="2000">
                             <p class="backabout">Services</p>
                             <p class="knowmemore">What I Do?</p>
                             <span class="header-separator"></span>
                         </div>
                         <div class="container services-section-contain">
                             <div class="row gx-5 services-section-row">
-                                <div class="col-lg-6 col-12 pe-0">
+                                <div class="col-lg-6 col-12 pe-0" data-aos="fade-right" data-aos-duration="2000">
                                     <div class="icon-des">
                                         <i class="fa-solid fa-palette"></i>
                                         <div class="icon-des-content">
@@ -249,7 +254,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6 col-12">
+                                <div class="col-lg-6 col-12" data-aos="fade-left">
                                     <div class="icon-des">
                                         <i class="fa-solid fa-desktop"></i>
                                         <div class="icon-des-content">
@@ -285,13 +290,13 @@
 
                 <div id="resume" class="page-section">
                     <div class="resume-section">
-                        <div class="about-header">
+                        <div class="about-header" data-aos="fade-down" data-aos-duration="2000">
                             <p class="backabout">Summary</p>
                             <p class="knowmemore">Resume</p>
                             <span class="header-separator"></span>
                         </div>
 
-                        <div class="container progress-bar-sec p-0">
+                        <div class="container progress-bar-sec p-0" data-aos="fade-up" data-aos-duration="2000">
                             <div class="progress-bar-row row gx-5 ps-4">
                                 <div class="col-sm-12 col-md-12 col-lg-6 col-12">
                                     <div class="progress-content">
@@ -368,7 +373,7 @@
 
                 <div id="portfolio" class="page-section">
                     <div class="portfolio-section bg-light">
-                        <div class="about-header">
+                        <div class="about-header" data-aos="fade-down">
                             <p class="backabout">Portfolio</p>
                             <p class="knowmemore">My Work</p>
                             <span class="header-separator"></span>
@@ -376,21 +381,22 @@
 
                         <!-- <section class="portfolio-section-down" id="portfolio"> -->
                         <section class="portfolio-section-down">
-                            <div class="container-fluid port-contain">                                
+                            <div class="container-fluid port-contain">
                                 <div class="portfolio-menu mt-2 mb-4">
                                     <nav class="controls">
                                         <button type="button" class="control outline" data-filter="all">All</button>
-                                        <button type="button" class="control outline" data-filter=".web">Projects</button>
                                         <button type="button" class="control outline"
-                                            data-filter=".dev">Web Development</button>
+                                            data-filter=".web">Projects</button>
+                                        <button type="button" class="control outline" data-filter=".dev">Web
+                                            Development</button>
                                         <button type="button" class="control outline"
                                             data-filter=".wp">WordPress</button>
                                     </nav>
                                 </div>
                                 <ul class="row portfolio-item">
                                     <li class="mix dev col-xl-4 col-md-4 col-12 col-sm-6 pd">
-                                        <img class="port-img" src="img/project-1.jpg"
-                                            itemprop="thumbnail" alt="Image description" />
+                                        <img class="port-img" src="img/project-1.jpg" itemprop="thumbnail"
+                                            alt="Image description" />
                                         <div class="portfolio-overlay">
                                             <div class="overlay-content">
                                                 <p class="category">Project Name</p>
@@ -411,8 +417,8 @@
                                         </div>
                                     </li>
                                     <li class="mix web col-xl-4 col-md-4 col-12 col-sm-6 pd">
-                                        <img class="port-img" src="img/project-2.jpg"
-                                            itemprop="thumbnail" alt="Image description" />
+                                        <img class="port-img" src="img/project-2.jpg" itemprop="thumbnail"
+                                            alt="Image description" />
                                         <div class="portfolio-overlay">
                                             <div class="overlay-content">
                                                 <p class="category">Project Name</p>
@@ -423,8 +429,7 @@
                                                     </div>
                                                 </a>
                                                 <a data-fancybox="item" title="click to zoom-in"
-                                                    href="img/project-2.jpg"
-                                                    data-size="1200x600">
+                                                    href="img/project-2.jpg" data-size="1200x600">
                                                     <div class="magnify-icon">
                                                         <p><span><i class="fa fa-search" aria-hidden="true"></i></span>
                                                         </p>
@@ -434,8 +439,8 @@
                                         </div>
                                     </li>
                                     <li class="mix wp col-xl-4 col-md-4 col-12 col-sm-6 pd">
-                                        <img class="port-img" src="img/project-3.jpg"
-                                            itemprop="thumbnail" alt="Image description" />
+                                        <img class="port-img" src="img/project-3.jpg" itemprop="thumbnail"
+                                            alt="Image description" />
                                         <div class="portfolio-overlay">
                                             <div class="overlay-content">
                                                 <p class="category">Project Name</p>
@@ -446,8 +451,7 @@
                                                     </div>
                                                 </a>
                                                 <a data-fancybox="item" title="click to zoom-in"
-                                                    href="img/project-3.jpg"
-                                                    data-size="1200x600">
+                                                    href="img/project-3.jpg" data-size="1200x600">
                                                     <div class="magnify-icon">
                                                         <p><span><i class="fa fa-search" aria-hidden="true"></i></span>
                                                         </p>
@@ -457,8 +461,8 @@
                                         </div>
                                     </li>
                                     <li class="mix dev col-xl-4 col-md-4 col-12 col-sm-6 pd ">
-                                        <img class="port-img" src="img/project-4.jpg"
-                                            itemprop="thumbnail" alt="Image description" />
+                                        <img class="port-img" src="img/project-4.jpg" itemprop="thumbnail"
+                                            alt="Image description" />
                                         <div class="portfolio-overlay">
                                             <div class="overlay-content">
                                                 <p class="category">Project Name</p>
@@ -469,8 +473,7 @@
                                                     </div>
                                                 </a>
                                                 <a data-fancybox="item" title="click to zoom-in"
-                                                    href="img/project-4.jpg"
-                                                    data-size="1200x600">
+                                                    href="img/project-4.jpg" data-size="1200x600">
                                                     <div class="magnify-icon">
                                                         <p><span><i class="fa fa-search" aria-hidden="true"></i></span>
                                                         </p>
@@ -480,8 +483,8 @@
                                         </div>
                                     </li>
                                     <li class="mix web col-xl-4 col-md-4 col-12 col-sm-6 pd ">
-                                        <img class="port-img" src="img/project-5.jpg"
-                                            itemprop="thumbnail" alt="Image description" />
+                                        <img class="port-img" src="img/project-5.jpg" itemprop="thumbnail"
+                                            alt="Image description" />
                                         <div class="portfolio-overlay">
                                             <div class="overlay-content">
                                                 <p class="category">Project Name</p>
@@ -492,8 +495,7 @@
                                                     </div>
                                                 </a>
                                                 <a data-fancybox="item" title="click to zoom-in"
-                                                    href="img/project-5.jpg"
-                                                    data-size="1200x600">
+                                                    href="img/project-5.jpg" data-size="1200x600">
                                                     <div class="magnify-icon">
                                                         <p><span><i class="fa fa-search" aria-hidden="true"></i></span>
                                                         </p>
@@ -503,8 +505,8 @@
                                         </div>
                                     </li>
                                     <li class="mix wp col-xl-4 col-md-4 col-12 col-sm-6 pd ">
-                                        <img class="port-img" src="img/project-6.jpg"
-                                            itemprop="thumbnail" alt="Image description" />
+                                        <img class="port-img" src="img/project-6.jpg" itemprop="thumbnail"
+                                            alt="Image description" />
                                         <div class="portfolio-overlay">
                                             <div class="overlay-content">
                                                 <p class="category">Project Name</p>
@@ -515,8 +517,7 @@
                                                     </div>
                                                 </a>
                                                 <a data-fancybox="item" title="click to zoom-in"
-                                                    href="img/project-6.jpg"
-                                                    data-size="1200x600">
+                                                    href="img/project-6.jpg" data-size="1200x600">
                                                     <div class="magnify-icon">
                                                         <p><span><i class="fa fa-search" aria-hidden="true"></i></span>
                                                         </p>
@@ -526,8 +527,8 @@
                                         </div>
                                     </li>
                                     <li class="mix dev col-xl-4 col-md-4 col-12 col-sm-6 pd">
-                                        <img class="port-img" src="img/project-7.jpg"
-                                            itemprop="thumbnail" alt="Image description" />
+                                        <img class="port-img" src="img/project-7.jpg" itemprop="thumbnail"
+                                            alt="Image description" />
                                         <div class="portfolio-overlay">
                                             <div class="overlay-content">
                                                 <p class="category">Project Name</p>
@@ -538,8 +539,7 @@
                                                     </div>
                                                 </a>
                                                 <a data-fancybox="item" title="click to zoom-in"
-                                                    href="img/project-7.jpg"
-                                                    data-size="1200x600">
+                                                    href="img/project-7.jpg" data-size="1200x600">
                                                     <div class="magnify-icon">
                                                         <p><span><i class="fa fa-search" aria-hidden="true"></i></span>
                                                         </p>
@@ -547,7 +547,7 @@
                                                 </a>
                                             </div>
                                         </div>
-                                    </li>                                    
+                                    </li>
                                 </ul>
                             </div>
                         </section>
@@ -587,7 +587,7 @@
 
                 <div id="testimonial" class="page-section">
                     <div class="testimonial-section">
-                        <div class="about-header">
+                        <div class="about-header" data-aos="fade-down">
                             <p class="backabout">Testimonial</p>
                             <p class="knowmemore">Client Speak</p>
                             <span class="header-separator"></span>
@@ -595,7 +595,7 @@
 
                         <div class="testimonial-sec-contain container">
                             <div class="owl-carousel owl-theme">
-                                <div class="item mx-2">
+                                <div class="item mx-2" data-aos="zoom-in-up" data-aos-duration="2000">
                                     <div class="carouse-content carouse-content-index bg-light">
                                         <img src="img/client-sm-2.jpg" alt="" class="img-responsive testiimg">
                                         <p class="man-text">Suresh Kumar Singh</p>
@@ -620,7 +620,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="item mx-2">
+                                <div class="item mx-2" data-aos="zoom-in-down" data-aos-duration="2000">
                                     <div class="carouse-content carouse-content-index bg-light">
                                         <div class="right-quotee-div">
                                         </div>
@@ -646,7 +646,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="item mx-2">
+                                <div class="item mx-2" data-aos="zoom-in-up" data-aos-duration="2000">
                                     <div class="carouse-content carouse-content-index bg-light">
                                         <div class="right-quotee-div">
                                         </div>
@@ -672,7 +672,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="item mx-2">
+                                <div class="item mx-2" data-aos="zoom-in-down" data-aos-duration="2000">
                                     <div class="carouse-content carouse-content-index bg-light">
                                         <div class="right-quotee-div">
                                         </div>
@@ -730,7 +730,7 @@
 
                 <div id="contact" class="page-section">
                     <div class="contact-section bg-light">
-                        <div class="about-header">
+                        <div class="about-header" data-aos="fade-down">
                             <p class="backabout">Contact</p>
                             <p class="knowmemore">Get in Touch</p>
                             <span class="header-separator"></span>
@@ -738,7 +738,7 @@
 
                         <div class="container contact-contain-section p-4">
                             <div class="row contact-row">
-                                <div class="col-12 col-lg-3 contact-col1">
+                                <div class="col-12 col-lg-3 contact-col1" data-aos="fade-up-right">
                                     <div class="address">
                                         <h4>Address</h4>
                                         <p class="address-line">Neem Chowk Banglagardh, Darbhanga,<br> Bihar 846004.
@@ -762,7 +762,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-12 col-lg-9 contact-col2">
+                                <div class="col-12 col-lg-9 contact-col2" data-aos="fade-up-left">
                                     <form action="">
                                         <p class="send_note">Send us a Note</p>
                                         <div class="row">
@@ -843,6 +843,11 @@ link on clicking */ -->
     </script>
 
 
+    <!-- Add script right before closing </body> tag, and initialize AOS: -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
 
 </body>
 

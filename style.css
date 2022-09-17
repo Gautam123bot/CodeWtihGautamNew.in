@@ -8,6 +8,11 @@
 
 /* -----------------------------------------------Start of toggler design------------------------------------ */
 
+/* [data-aos][data-aos][data-aos-duration="400"],
+body[data-aos-duration="400"] [data-aos] {
+    transition-duration: 3s !important;
+} */
+
 html {
     /*For smooth scrolling behavior*/
     scroll-behavior: smooth;
@@ -345,7 +350,7 @@ div.content {
 
 .knowmemore {
     position: absolute;
-    top: 135px;
+    top: 100px;
     font-family: 'poppins', sans-serif;
     font-weight: 600;
     font-size: 38px;
@@ -372,7 +377,7 @@ div.content {
     position: absolute;
     text-align: center;
     left: 47%;
-    top: 190px;
+    top: 155px;
     border-radius: 61px;
 }
 
@@ -868,7 +873,7 @@ div.content {
     /* background-color: #000; */
 }
 
-.port-contain{
+.port-contain {
     max-width: 1300px;
 }
 
@@ -1004,7 +1009,7 @@ div.content {
 
 
 
-.pd:hover .port-img  {
+.pd:hover .port-img {
     filter: blur(1px);
     transform: scale(1.05);
 }
