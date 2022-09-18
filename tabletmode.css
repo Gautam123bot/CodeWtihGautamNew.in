@@ -137,13 +137,13 @@
         position: absolute;
         text-align: center;
         left: 44%;
-        top: 154px !important;
+        top: 120px !important;
         border-radius: 61px;
     }
 
     .knowmemore {
         position: absolute;
-        top: 106px !important;
+        top: 70px !important;
         font-family: 'poppins', sans-serif;
         font-size: 35px;
         text-align: center;

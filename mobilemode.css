@@ -26,7 +26,7 @@
 
     .knowmemore {
         position: absolute;
-        top: 87px !important;
+        top: 52px !important;
         font-family: 'poppins', sans-serif;
         font-size: 35px;
         text-align: center;
@@ -48,7 +48,7 @@
         position: absolute;
         text-align: center;
         left: 39%;
-        top: 135px !important;
+        top: 105px !important;
         border-radius: 61px;
     }
 

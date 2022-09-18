@@ -141,7 +141,7 @@
 
                 <div id="home" class="page-section">
                     <div class="hero-bg">
-                        <!-- <img src="img/github_octocat.png" alt="" class="img-responsive"> -->
+                        <a href="#"><img src="img/github_octocat.png" data-aos="zoom-in" data-aos-duration="3000" alt="" class="img-responsive github-top"></a>
                         <div class="inner-content">
                             <div class="inn-content p-4">
                                 <img src="img/profile_photo.jpeg" alt="" class="img-responsive my-img-down" data-aos="zoom-in-down" data-aos-duration="3000">

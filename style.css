@@ -18,6 +18,14 @@ html {
     scroll-behavior: smooth;
 }
 
+.github-top {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 120px;
+    z-index: 1000;
+}
+
 .navbar-toggler {
     border: 0;
     padding: 15px 15px;
