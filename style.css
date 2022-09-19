@@ -17,6 +17,9 @@ html {
     /*For smooth scrolling behavior*/
     scroll-behavior: smooth;
 }
+html, body{
+    width: 100%;
+}
 
 .github-top {
     position: absolute;

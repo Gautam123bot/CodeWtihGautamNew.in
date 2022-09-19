@@ -95,7 +95,7 @@
 
 
 
-    <div class="container-fluid main-contain p-0">
+    <div class="container-fluid main-contain p-0" style="overflow: hidden;">
         <!-- <div class="row"> -->
         <!-- <div class="col-lg-3 col-md-3 col-12 p-0 firstcol"> -->
         <div class="whole navside">

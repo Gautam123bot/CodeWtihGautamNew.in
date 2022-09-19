@@ -180,5 +180,12 @@
         font-size: 16px;
         float: none;
     }
+    .github-top {
+        position: absolute;
+        top: 73px !important;
+        right: 0px !important;
+        width: 100px !important;
+        z-index: 1000;
+    }
    
 }
