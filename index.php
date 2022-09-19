@@ -400,7 +400,7 @@
                                         <div class="portfolio-overlay">
                                             <div class="overlay-content">
                                                 <p class="category">Project Name</p>
-                                                <a href="https://flipkart.com" title="View Project" target="_blank">
+                                                <a href="project2.php" title="View Project" target="_blank">
                                                     <div class="magnify-icon">
                                                         <p><span><i class="fa fa-link" aria-hidden="true"></i></span>
                                                         </p>
@@ -422,7 +422,7 @@
                                         <div class="portfolio-overlay">
                                             <div class="overlay-content">
                                                 <p class="category">Project Name</p>
-                                                <a href="#" title="View Project" target="_blank">
+                                                <a href="project1.php" title="View Project" target="_blank">
                                                     <div class="magnify-icon">
                                                         <p><span><i class="fa fa-link" aria-hidden="true"></i></span>
                                                         </p>
