@@ -127,8 +127,12 @@ html, body{
 
 
 
+/* div.content {
+    width: 100%;
+} */
 div.content {
     width: 100%;
+    margin-left: 235px;
 }
 
 .my-img {

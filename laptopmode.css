@@ -3,12 +3,20 @@
         display: flex;
     }
 
-    .navside {
+    /* .navside {
         position: sticky;
         top: 0;
         height: 100vh;
         background: #111418;
         width: 285px;
+        display: inline-block;
+    } */
+    .navside {
+        position: fixed;
+        top: 0;
+        height: 100vh;
+        background: #111418;
+        width: 235px;
         display: inline-block;
     }
 
