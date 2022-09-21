@@ -28,8 +28,12 @@
         display: none !important;
     }
 
+    /* div.content {
+        margin-left: 0;
+    } */
     div.content {
         margin-left: 0;
+        margin-top: 62px;
     }
 
     .navbar .alinkfont {
@@ -188,6 +192,7 @@
         font-size: 16px;
         float: none;
     }
+
     .github-top {
         position: absolute;
         top: 73px !important;
@@ -195,5 +200,5 @@
         width: 100px !important;
         z-index: 1000;
     }
-   
+
 }

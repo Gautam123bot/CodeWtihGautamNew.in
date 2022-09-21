@@ -161,7 +161,7 @@
                                     front-end.
                                     Welcome
                                     to my corner of the internet. I,m glad you're here!</p>
-                                <button class="resumebtn" data-aos="zoom-out-up" data-aos-duration="3000"><a onclick="openTab(this)" href="#"
+                                <button class="resumebtn" data-aos="zoom-in" data-aos-duration="3000"><a onclick="openTab(this)" href="#"
                                         name="PDF/codewithgautamresume.pdf">Check out
                                         my CV</a></button>
                                 <script type="text/javascript">
