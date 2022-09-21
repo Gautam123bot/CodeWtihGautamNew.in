@@ -13,6 +13,22 @@ body[data-aos-duration="400"] [data-aos] {
     transition-duration: 3s !important;
 } */
 
+.bottomtotop {
+    position: fixed;
+    font-size: 35px;
+    background: none;
+    right: 23px;
+    background: #00cab1;
+    bottom: 20px;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
 html {
     /*For smooth scrolling behavior*/
     scroll-behavior: smooth;
@@ -22,7 +38,7 @@ html, body{
 }
 
 .github-top {
-    position: absolute;
+    position: fixed;
     top: 20px;
     right: 20px;
     width: 120px;

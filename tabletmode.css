@@ -194,7 +194,7 @@
     }
 
     .github-top {
-        position: absolute;
+        position: fixed;
         top: 73px !important;
         right: 0px !important;
         width: 100px !important;

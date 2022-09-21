@@ -395,7 +395,7 @@
                                 </div>
                                 <ul class="row portfolio-item">
                                     <li class="mix dev col-xl-4 col-md-4 col-12 col-sm-6 pd">
-                                        <img class="port-img" src="img/project-1.jpg" itemprop="thumbnail"
+                                        <img class="port-img" src="img/project1.png" itemprop="thumbnail"
                                             alt="Image description" />
                                         <div class="portfolio-overlay">
                                             <div class="overlay-content">
@@ -407,7 +407,7 @@
                                                     </div>
                                                 </a>
                                                 <a data-fancybox="item" title="click to zoom-in"
-                                                    href="img/project-1.jpg">
+                                                    href="img/project1.png">
                                                     <div class="magnify-icon">
                                                         <p><span><i class="fa fa-search" aria-hidden="true"></i></span>
                                                         </p>
@@ -417,7 +417,7 @@
                                         </div>
                                     </li>
                                     <li class="mix web col-xl-4 col-md-4 col-12 col-sm-6 pd">
-                                        <img class="port-img" src="img/project-2.jpg" itemprop="thumbnail"
+                                        <img class="port-img" src="img/project2.png" itemprop="thumbnail"
                                             alt="Image description" />
                                         <div class="portfolio-overlay">
                                             <div class="overlay-content">
@@ -429,7 +429,7 @@
                                                     </div>
                                                 </a>
                                                 <a data-fancybox="item" title="click to zoom-in"
-                                                    href="img/project-2.jpg" data-size="1200x600">
+                                                    href="img/project2.png" data-size="1200x600">
                                                     <div class="magnify-icon">
                                                         <p><span><i class="fa fa-search" aria-hidden="true"></i></span>
                                                         </p>
@@ -439,7 +439,7 @@
                                         </div>
                                     </li>
                                     <li class="mix wp col-xl-4 col-md-4 col-12 col-sm-6 pd">
-                                        <img class="port-img" src="img/project-3.jpg" itemprop="thumbnail"
+                                        <img class="port-img" src="img/project3.png" itemprop="thumbnail"
                                             alt="Image description" />
                                         <div class="portfolio-overlay">
                                             <div class="overlay-content">
@@ -451,7 +451,7 @@
                                                     </div>
                                                 </a>
                                                 <a data-fancybox="item" title="click to zoom-in"
-                                                    href="img/project-3.jpg" data-size="1200x600">
+                                                    href="img/project3.png" data-size="1200x600">
                                                     <div class="magnify-icon">
                                                         <p><span><i class="fa fa-search" aria-hidden="true"></i></span>
                                                         </p>
@@ -461,7 +461,7 @@
                                         </div>
                                     </li>
                                     <li class="mix dev col-xl-4 col-md-4 col-12 col-sm-6 pd ">
-                                        <img class="port-img" src="img/project-4.jpg" itemprop="thumbnail"
+                                        <img class="port-img" src="img/project4.png" itemprop="thumbnail"
                                             alt="Image description" />
                                         <div class="portfolio-overlay">
                                             <div class="overlay-content">
@@ -473,7 +473,7 @@
                                                     </div>
                                                 </a>
                                                 <a data-fancybox="item" title="click to zoom-in"
-                                                    href="img/project-4.jpg" data-size="1200x600">
+                                                    href="img/project4.png" data-size="1200x600">
                                                     <div class="magnify-icon">
                                                         <p><span><i class="fa fa-search" aria-hidden="true"></i></span>
                                                         </p>
@@ -483,7 +483,7 @@
                                         </div>
                                     </li>
                                     <li class="mix web col-xl-4 col-md-4 col-12 col-sm-6 pd ">
-                                        <img class="port-img" src="img/project-5.jpg" itemprop="thumbnail"
+                                        <img class="port-img" src="img/project5.png" itemprop="thumbnail"
                                             alt="Image description" />
                                         <div class="portfolio-overlay">
                                             <div class="overlay-content">
@@ -495,7 +495,7 @@
                                                     </div>
                                                 </a>
                                                 <a data-fancybox="item" title="click to zoom-in"
-                                                    href="img/project-5.jpg" data-size="1200x600">
+                                                    href="img/project5.png" data-size="1200x600">
                                                     <div class="magnify-icon">
                                                         <p><span><i class="fa fa-search" aria-hidden="true"></i></span>
                                                         </p>
@@ -792,6 +792,7 @@
                     </div>
                 </div>
 
+                <div class="bottomtotop" onclick="totop()"><i class="fa-solid fa-arrow-up"></i></div>
 
             </div>
         </div>
