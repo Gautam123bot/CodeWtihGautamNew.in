@@ -77,17 +77,17 @@
 
 </head>
 
-<body style="background: #ffadab; color: black;">
+<body style="background: linear-gradient(45deg, #ffc94d, transparent); min-height: 100vh; color: black;">
     <br><br><br>
     <div class="container-fluid main-contain p-0">
         <!-- <div class="content"> -->
         <div class="container project-contain">
-            <h2 class="project-title">Online Tution Website</h2>
+            <h2 class="project-title">Ecommerce Website</h2>
             <div class="row">
                 <div class="col-lg-6 col-sm-12 col-12" style="display: block; margin: auto 0;">
 
                     <div class="project-div-img">
-                        <img src="img/insideproject1.png" alt="" class="img-responsive project-img">
+                        <img src="img/insideproject4.png" alt="" class="img-responsive project-img">
                     </div>
 
                 </div>
@@ -95,18 +95,15 @@
 
                     <div class="project-content">
                         <h4>Project Info:</h4>
-                        <p class="project-info-para">This is a online-tutoring project which consists of some of the
-                            modern techniques used in web designing like HTML, CSS, Bootstrap, JavaScript, Jquery, PHP,
-                            etc. </p>
+                        <p class="project-info-para">This is an ecommerce website for a spectacle frames, chasmadekhoo eye clinic, etc. This website is based on Wordpress and Elementor with WooCommerce plugins and themes.  Visit for more info....</p>
                         <h4 class="mt-4">Project Details:</h4>
-                        <p class="project-label"><label>Client: &nbsp;&nbsp;</label>Not available --------</p>
-                        <p class="project-label"><label>Technologies: &nbsp;&nbsp;</label>HTML5, CSS3, PHP, JavaScript
-                        </p>
+                        <p class="project-label"><label>Client: &nbsp;&nbsp;</label>Amar Nath Kumar</p>
+                        <p class="project-label"><label>Technologies: &nbsp;&nbsp;</label>Wordpress, Elementor</p>
                         <p class="project-label"><label>Industry: &nbsp;&nbsp;</label>Design & Development</p>
-                        <p class="project-label"><label>Date: &nbsp;&nbsp;</label>August 13, 2022</p>
+                        <p class="project-label"><label>Date: &nbsp;&nbsp;</label>September 11, 2022</p>
                         <p class="project-label"><label>URL: &nbsp;&nbsp;</label>
-                            <a class="project-url" href="https://tutoratdoor.com"
-                                target="_blank">www.tutoratdoor.com</a>
+                            <a class="project-url" href="https://chasmadekhoo.com"
+                                target="_blank">www.chasmadekhoo.com</a>
                         </p>
                         <p class="project-label"><label>Share: &nbsp;&nbsp;</label>
                             <span class="project-icon">

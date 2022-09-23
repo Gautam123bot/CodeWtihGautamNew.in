@@ -77,17 +77,17 @@
 
 </head>
 
-<body style="background: #ffadab; color: black;">
+<body style="background: #92e8f4; color: black;">
     <br><br><br>
     <div class="container-fluid main-contain p-0">
         <!-- <div class="content"> -->
         <div class="container project-contain">
-            <h2 class="project-title">Online Tution Website</h2>
+            <h2 class="project-title">Packers and Movers</h2>
             <div class="row">
                 <div class="col-lg-6 col-sm-12 col-12" style="display: block; margin: auto 0;">
 
                     <div class="project-div-img">
-                        <img src="img/insideproject1.png" alt="" class="img-responsive project-img">
+                        <img src="img/insideproject3.png" alt="" class="img-responsive project-img">
                     </div>
 
                 </div>
@@ -95,18 +95,16 @@
 
                     <div class="project-content">
                         <h4>Project Info:</h4>
-                        <p class="project-info-para">This is a online-tutoring project which consists of some of the
-                            modern techniques used in web designing like HTML, CSS, Bootstrap, JavaScript, Jquery, PHP,
-                            etc. </p>
+                        <p class="project-info-para">This is a Packers & Movers website which ensure packing and moving of materials from one place to another. This website consists of frontend and backend as well.</p>
                         <h4 class="mt-4">Project Details:</h4>
                         <p class="project-label"><label>Client: &nbsp;&nbsp;</label>Not available --------</p>
                         <p class="project-label"><label>Technologies: &nbsp;&nbsp;</label>HTML5, CSS3, PHP, JavaScript
                         </p>
                         <p class="project-label"><label>Industry: &nbsp;&nbsp;</label>Design & Development</p>
-                        <p class="project-label"><label>Date: &nbsp;&nbsp;</label>August 13, 2022</p>
+                        <p class="project-label"><label>Date: &nbsp;&nbsp;</label>September 02, 2022</p>
                         <p class="project-label"><label>URL: &nbsp;&nbsp;</label>
-                            <a class="project-url" href="https://tutoratdoor.com"
-                                target="_blank">www.tutoratdoor.com</a>
+                            <a class="project-url" href="https://tutoratdoor.com/packersandmovers"
+                                target="_blank">www.packersandmovers.com/</a>
                         </p>
                         <p class="project-label"><label>Share: &nbsp;&nbsp;</label>
                             <span class="project-icon">

@@ -74,8 +74,10 @@
     </script>
     <!-- Fancybox js -->
 
-
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script> -->
 
 
 </head>
@@ -141,12 +143,15 @@
 
                 <div id="home" class="page-section">
                     <div class="hero-bg">
-                        <a href="#"><img src="img/github_octocat.png" data-aos="zoom-in" data-aos-duration="3000" alt="" class="img-responsive github-top"></a>
+                        <a href="#"><img src="img/github_octocat.png" data-aos="zoom-in" data-aos-duration="3000" alt=""
+                                class="img-responsive github-top"></a>
                         <div class="inner-content">
                             <div class="inn-content p-4">
-                                <img src="img/profile_photo.jpeg" alt="" class="img-responsive my-img-down" data-aos="zoom-in-down" data-aos-duration="3000">
+                                <img src="img/profile_photo.jpeg" alt="" class="img-responsive my-img-down"
+                                    data-aos="zoom-in-down" data-aos-duration="3000">
                                 <p class="hey_there" data-aos="zoom-in-down" data-aos-duration="3000">Hey There,</p>
-                                <p class="iamgautam" data-aos="zoom-in-down" data-aos-duration="3000">I'm a <span class="auto-type"></span></p>
+                                <p class="iamgautam" data-aos="zoom-in-down" data-aos-duration="3000">I'm a <span
+                                        class="auto-type"></span></p>
 
                                 <script>
                                 var typed = new Typed(".auto-type", {
@@ -157,12 +162,13 @@
                                 })
                                 </script>
 
-                                <p class="iamfullpara" data-aos="flip-left" data-aos-duration="3000">I,m a full stack developer with a passion for everything
+                                <p class="iamfullpara" data-aos="flip-left" data-aos-duration="3000">I,m a full stack
+                                    developer with a passion for everything
                                     front-end.
                                     Welcome
                                     to my corner of the internet. I,m glad you're here!</p>
-                                <button class="resumebtn" data-aos="zoom-in" data-aos-duration="3000"><a onclick="openTab(this)" href="#"
-                                        name="PDF/codewithgautamresume.pdf">Check out
+                                <button class="resumebtn" data-aos="zoom-in" data-aos-duration="3000"><a
+                                        onclick="openTab(this)" href="#" name="PDF/codewithgautamresume.pdf">Check out
                                         my CV</a></button>
                                 <script type="text/javascript">
                                 function openTab(th) {
@@ -214,6 +220,40 @@
                             </div>
                         </div>
                     </div>
+
+
+                    <!-- <div class="count-small-section">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h1><span class="counter">15</span></h1>
+                                <h3>Months of Experience</h3>
+                            </div>
+                            <div class="col-md-4">
+                                <h1><span class="counter">--</span></h1>
+                                <h3>Happy Clients</h3>
+                            </div>
+                            <div class="col-md-4">
+                                <h1><span class="counter">5</span></h1>
+                                <h3>Projects Done</h3>
+                            </div>
+                            <div class="col-md-4">
+                                <h1><span class="counter">--</span></h1>
+                                <h3>Get Rewards</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <script>
+                    $('.counter').counterUp({
+                        delay: 15,
+                        time: 1500
+                    });
+                    $('.counter').addClass('animated fadeInDownBig');
+                    $('h3').addClass('animated fadeIn');
+                    </script> -->
+
+
+
                 </div>
 
                 <div id="services" class="page-section">
@@ -394,20 +434,20 @@
                                     </nav>
                                 </div>
                                 <ul class="row portfolio-item">
-                                    <li class="mix dev col-xl-4 col-md-4 col-12 col-sm-6 pd">
+                                    <li class="mix web col-xl-4 col-md-4 col-12 col-sm-6 pd">
                                         <img class="port-img" src="img/project1.png" itemprop="thumbnail"
-                                            alt="Image description" />
+                                            data-aos="flip-right" alt="Image description" />
                                         <div class="portfolio-overlay">
                                             <div class="overlay-content">
-                                                <p class="category">Project Name</p>
-                                                <a href="project2.php" title="View Project" target="_blank">
+                                                <p class="category">Tutoratdoor</p>
+                                                <a href="project1.php" title="View Project" target="_blank">
                                                     <div class="magnify-icon">
                                                         <p><span><i class="fa fa-link" aria-hidden="true"></i></span>
                                                         </p>
                                                     </div>
                                                 </a>
-                                                <a data-fancybox="item" title="click to zoom-in"
-                                                    href="img/project1.png">
+                                                <a data-fancybox="item" title="click to zoom-in" href="img/project1.png"
+                                                    data-size="1200x600">
                                                     <div class="magnify-icon">
                                                         <p><span><i class="fa fa-search" aria-hidden="true"></i></span>
                                                         </p>
@@ -416,20 +456,64 @@
                                             </div>
                                         </div>
                                     </li>
-                                    <li class="mix web col-xl-4 col-md-4 col-12 col-sm-6 pd">
+                                    <li class="mix dev col-xl-4 col-md-4 col-12 col-sm-6 pd">
                                         <img class="port-img" src="img/project2.png" itemprop="thumbnail"
-                                            alt="Image description" />
+                                            data-aos="flip-right" alt="Image description" />
                                         <div class="portfolio-overlay">
                                             <div class="overlay-content">
-                                                <p class="category">Project Name</p>
-                                                <a href="project1.php" title="View Project" target="_blank">
+                                                <p class="category">MyNotepad</p>
+                                                <a href="project2.php" title="View Project" target="_blank">
                                                     <div class="magnify-icon">
                                                         <p><span><i class="fa fa-link" aria-hidden="true"></i></span>
                                                         </p>
                                                     </div>
                                                 </a>
                                                 <a data-fancybox="item" title="click to zoom-in"
-                                                    href="img/project2.png" data-size="1200x600">
+                                                    href="img/project2.png">
+                                                    <div class="magnify-icon">
+                                                        <p><span><i class="fa fa-search" aria-hidden="true"></i></span>
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="mix dev col-xl-4 col-md-4 col-12 col-sm-6 pd">
+                                        <img class="port-img" src="img/project3.png" itemprop="thumbnail"
+                                            data-aos="flip-left" alt="Image description" />
+                                        <div class="portfolio-overlay">
+                                            <div class="overlay-content">
+                                                <p class="category">Project Name</p>
+                                                <a href="project3.php" title="View Project" target="_blank">
+                                                    <div class="magnify-icon">
+                                                        <p><span><i class="fa fa-link" aria-hidden="true"></i></span>
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                                <a data-fancybox="item" title="click to zoom-in" href="img/project3.png"
+                                                    data-size="1200x600">
+                                                    <div class="magnify-icon">
+                                                        <p><span><i class="fa fa-search" aria-hidden="true"></i></span>
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="mix dev col-xl-4 col-md-4 col-12 col-sm-6 pd">
+                                        <img class="port-img" src="img/project4.png" itemprop="thumbnail"
+                                            data-aos="flip-left" alt="Image description" />
+                                        <div class="portfolio-overlay">
+                                            <div class="overlay-content">
+                                                <p class="category">Project Name</p>
+                                                <a href="project4.php" title="View Project" target="_blank">
+                                                    <div class="magnify-icon">
+                                                        <p><span><i class="fa fa-link" aria-hidden="true"></i></span>
+                                                        </p>
+                                                    </div>
+                                                </a>
+                                                <a data-fancybox="item" title="click to zoom-in" href="img/project4.png"
+                                                    data-size="1200x600">
                                                     <div class="magnify-icon">
                                                         <p><span><i class="fa fa-search" aria-hidden="true"></i></span>
                                                         </p>
@@ -439,63 +523,19 @@
                                         </div>
                                     </li>
                                     <li class="mix wp col-xl-4 col-md-4 col-12 col-sm-6 pd">
-                                        <img class="port-img" src="img/project3.png" itemprop="thumbnail"
-                                            alt="Image description" />
-                                        <div class="portfolio-overlay">
-                                            <div class="overlay-content">
-                                                <p class="category">Project Name</p>
-                                                <a href="#" title="View Project" target="_blank">
-                                                    <div class="magnify-icon">
-                                                        <p><span><i class="fa fa-link" aria-hidden="true"></i></span>
-                                                        </p>
-                                                    </div>
-                                                </a>
-                                                <a data-fancybox="item" title="click to zoom-in"
-                                                    href="img/project3.png" data-size="1200x600">
-                                                    <div class="magnify-icon">
-                                                        <p><span><i class="fa fa-search" aria-hidden="true"></i></span>
-                                                        </p>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="mix dev col-xl-4 col-md-4 col-12 col-sm-6 pd ">
-                                        <img class="port-img" src="img/project4.png" itemprop="thumbnail"
-                                            alt="Image description" />
-                                        <div class="portfolio-overlay">
-                                            <div class="overlay-content">
-                                                <p class="category">Project Name</p>
-                                                <a href="#" title="View Project" target="_blank">
-                                                    <div class="magnify-icon">
-                                                        <p><span><i class="fa fa-link" aria-hidden="true"></i></span>
-                                                        </p>
-                                                    </div>
-                                                </a>
-                                                <a data-fancybox="item" title="click to zoom-in"
-                                                    href="img/project4.png" data-size="1200x600">
-                                                    <div class="magnify-icon">
-                                                        <p><span><i class="fa fa-search" aria-hidden="true"></i></span>
-                                                        </p>
-                                                    </div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </li>
-                                    <li class="mix web col-xl-4 col-md-4 col-12 col-sm-6 pd ">
                                         <img class="port-img" src="img/project5.png" itemprop="thumbnail"
-                                            alt="Image description" />
+                                            data-aos="flip-right" alt="Image description" />
                                         <div class="portfolio-overlay">
                                             <div class="overlay-content">
                                                 <p class="category">Project Name</p>
-                                                <a href="#" title="View Project" target="_blank">
+                                                <a href="project5.php" title="View Project" target="_blank">
                                                     <div class="magnify-icon">
                                                         <p><span><i class="fa fa-link" aria-hidden="true"></i></span>
                                                         </p>
                                                     </div>
                                                 </a>
-                                                <a data-fancybox="item" title="click to zoom-in"
-                                                    href="img/project5.png" data-size="1200x600">
+                                                <a data-fancybox="item" title="click to zoom-in" href="img/project5.png"
+                                                    data-size="1200x600">
                                                     <div class="magnify-icon">
                                                         <p><span><i class="fa fa-search" aria-hidden="true"></i></span>
                                                         </p>
@@ -504,7 +544,7 @@
                                             </div>
                                         </div>
                                     </li>
-                                    <li class="mix wp col-xl-4 col-md-4 col-12 col-sm-6 pd ">
+                                    <!-- <li class="mix wp col-xl-4 col-md-4 col-12 col-sm-6 pd ">
                                         <img class="port-img" src="img/project-6.jpg" itemprop="thumbnail"
                                             alt="Image description" />
                                         <div class="portfolio-overlay">
@@ -547,7 +587,7 @@
                                                 </a>
                                             </div>
                                         </div>
-                                    </li>
+                                    </li> -->
                                 </ul>
                             </div>
                         </section>
@@ -849,6 +889,7 @@ link on clicking */ -->
     <script>
     AOS.init();
     </script>
+
 
 </body>
 

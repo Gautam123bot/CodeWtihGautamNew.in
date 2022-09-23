@@ -77,14 +77,14 @@
 
 </head>
 
-<body style="background: navajowhite; color: black;">
+<body style="background: #505050; color: black;">
     <br><br><br>
     <div class="container-fluid main-contain p-0">
-        <div class="content">
+        <!-- <div class="content"> -->
             <div class="container project-contain">
-                <h2 class="project-title">Project Title 2</h2>
+                <h2 class="project-title">MyNotepad</h2>
                 <div class="row">
-                    <div class="col-lg-6 col-sm-12 col-12">
+                    <div class="col-lg-6 col-sm-12 col-12" style="display: block; margin: auto 0;">
 
                         <!-- <div class="project-div-img">
                             <img src="img/project-1.jpg" alt="" class="img-responsive project-img">
@@ -92,10 +92,19 @@
                         </div> -->
                         <div class="owl-carousel owl-theme">
                             <div class="item mx-2">
-                                <img src="img/project-1.jpg" alt="" class="img-responsive">
+                                <img src="img/insideproject21.png" alt="" class="img-responsive">
                             </div>
                             <div class="item mx-2">
-                                <img src="img/project-5.jpg" alt="" class="img-responsive">
+                                <img src="img/insideproject22.png" alt="" class="img-responsive">
+                            </div>
+                            <div class="item mx-2">
+                                <img src="img/insideproject23.png" alt="" class="img-responsive">
+                            </div>
+                            <div class="item mx-2">
+                                <img src="img/insideproject24.png" alt="" class="img-responsive">
+                            </div>
+                            <div class="item mx-2">
+                                <img src="img/insideproject25.png" alt="" class="img-responsive">
                             </div>
                         </div>
 
@@ -127,25 +136,21 @@
 
                         <div class="project-content">
                             <h4>Project Info:</h4>
-                            <p class="project-info-para">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                Voluptatem nesciunt
-                                aspernatur, quas doloremque rerum minima aperiam voluptates officia dolores odit.
-                                Lorem ipsum dolor sit amet.</p>
+                            <p class="project-info-para" style="color: ghostwhite;">This is a MyNotepad project which has been programmed by me in Visual Basic .Net .<br> This project has been programmed and designed according to Microsoft Notepad. You can view more details of this project's code on my Github account.</p>
                             <h4 class="mt-4">Project Details:</h4>
-                            <p class="project-label"><label>Client: &nbsp;&nbsp;</label>Ruby Clinton</p>
-                            <p class="project-label"><label>Technologies: &nbsp;&nbsp;</label>iOS, HTML5, CSS3, PHP,
-                                Java</p>
-                            <p class="project-label"><label>Industry: &nbsp;&nbsp;</label>Art & Design</p>
-                            <p class="project-label"><label>Date: &nbsp;&nbsp;</label>July 16, 2019</p>
-                            <p class="project-label"><label>URL: &nbsp;&nbsp;</label><span
-                                    class="project-url">www.example.com</span></p>
-                            <p class="project-label"><label>Share: &nbsp;&nbsp;</label>
+                            <p class="project-label" style="color: ghostwhite;"><label>Client: &nbsp;&nbsp;</label>Myself</p>
+                            <p class="project-label" style="color: ghostwhite;"><label>Technologies: &nbsp;&nbsp;</label>VB.Net</p>
+                            <p class="project-label" style="color: ghostwhite;"><label>Industry: &nbsp;&nbsp;</label>Software Development</p>
+                            <p class="project-label" style="color: ghostwhite;"><label>Date: &nbsp;&nbsp;</label>March 20, 2020</p>
+                            <p class="project-label" style="color: ghostwhite;"><label>URL: &nbsp;&nbsp;</label><span
+                                    class="project-url">Contact me for software executable files</span></p>
+                            <p class="project-label" style="color: ghostwhite;"><label>Share: &nbsp;&nbsp;</label>
                                 <span class="project-icon">
-                                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="#"><i class="fa-brands fa-telegram"></i></a>
-                                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                                    <a href="#"><i class="fab fa-twitter"></i></a>
-                                    <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                                    <a href="#"><i class="fab fa-facebook-f" style="color: ghostwhite;"></i></a>
+                                    <a href="#"><i class="fa-brands fa-telegram" style="color: ghostwhite;"></i></a>
+                                    <a href="#"><i class="fa-brands fa-instagram" style="color: ghostwhite;"></i></a>
+                                    <a href="#"><i class="fab fa-twitter" style="color: ghostwhite;"></i></a>
+                                    <a href="#"><i class="fa-solid fa-envelope" style="color: ghostwhite;"></i></a>
                                 </span>
                             </p>
                         </div>
@@ -159,7 +164,7 @@
                 </div>
 
             </div> -->
-        </div>
+        <!-- </div> -->
     </div>
 
 

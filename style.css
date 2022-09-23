@@ -13,6 +13,11 @@ body[data-aos-duration="400"] [data-aos] {
     transition-duration: 3s !important;
 } */
 
+
+
+
+
+
 .bottomtotop {
     position: fixed;
     font-size: 35px;
@@ -959,6 +964,8 @@ div.content {
 
 .portfolio-item {
     padding-top: 30px;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 .pd {
@@ -970,6 +977,7 @@ div.content {
     max-width: 100%;
     transition: all 0.5s;
     border-radius: 10px;
+    min-height: 218px;
 }
 
 .portfolio-overlay {

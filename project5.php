@@ -77,17 +77,17 @@
 
 </head>
 
-<body style="background: #ffadab; color: black;">
+<body style="background: linear-gradient(45deg, #00edbc, #d7fffc); min-height: 100vh; color: black;">
     <br><br><br>
     <div class="container-fluid main-contain p-0">
         <!-- <div class="content"> -->
         <div class="container project-contain">
-            <h2 class="project-title">Online Tution Website</h2>
+            <h2 class="project-title">Personal Portfolio Website</h2>
             <div class="row">
                 <div class="col-lg-6 col-sm-12 col-12" style="display: block; margin: auto 0;">
 
                     <div class="project-div-img">
-                        <img src="img/insideproject1.png" alt="" class="img-responsive project-img">
+                        <img src="img/insideproject5.png" alt="" class="img-responsive project-img">
                     </div>
 
                 </div>
@@ -95,18 +95,17 @@
 
                     <div class="project-content">
                         <h4>Project Info:</h4>
-                        <p class="project-info-para">This is a online-tutoring project which consists of some of the
-                            modern techniques used in web designing like HTML, CSS, Bootstrap, JavaScript, Jquery, PHP,
-                            etc. </p>
+                        <p class="project-info-para">This is my personal portfolio website designed and programmed by me usgin HTML, CSS, JavaScript, PHP, Jquery, API Fetching, etc. This site consists of single page development site which consists of seven sections and are linked with scrollspy. Visit my site for more info...... </p>
                         <h4 class="mt-4">Project Details:</h4>
-                        <p class="project-label"><label>Client: &nbsp;&nbsp;</label>Not available --------</p>
-                        <p class="project-label"><label>Technologies: &nbsp;&nbsp;</label>HTML5, CSS3, PHP, JavaScript
+                        <p class="project-label"><label>Client: &nbsp;&nbsp;</label>MySelf</p>
+                        <p class="project-label"><label>Technologies: &nbsp;&nbsp;</label>HTML5, CSS3, PHP, JavaScript, Jquery
                         </p>
                         <p class="project-label"><label>Industry: &nbsp;&nbsp;</label>Design & Development</p>
-                        <p class="project-label"><label>Date: &nbsp;&nbsp;</label>August 13, 2022</p>
+                        <p class="project-label"><label>Date: &nbsp;&nbsp;</label>September 19, 2022</p>
+                        <p class="project-label"><label>Email: &nbsp;&nbsp;</label>chat@codewithgautam.in</p>
                         <p class="project-label"><label>URL: &nbsp;&nbsp;</label>
-                            <a class="project-url" href="https://tutoratdoor.com"
-                                target="_blank">www.tutoratdoor.com</a>
+                            <a class="project-url" href="https://codewithgautam.in"
+                                target="_blank">www.codewithgautam.in</a>
                         </p>
                         <p class="project-label"><label>Share: &nbsp;&nbsp;</label>
                             <span class="project-icon">

@@ -8,9 +8,11 @@
 .project-title {
     text-align: center;
     text-transform: uppercase;
-    font-family: 'poppins', sans-serif;
+    font-family: 'montserrat', sans-serif;
+    font-weight: bold;
     margin-bottom: 70px;
     word-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .project-content {
@@ -58,11 +60,14 @@
     color: black !important;
 }
 
-.project-url {
-    color: rgb(0, 195, 136) !important;
-    font-size: 18px;
-}
 
+.project-url {
+    color: rgb(0 161 113) !important;
+    font-size: 18px;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 500;
+}
 
 
 
