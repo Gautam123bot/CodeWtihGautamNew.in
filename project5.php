@@ -77,7 +77,7 @@
 
 </head>
 
-<body style="background: linear-gradient(45deg, #00edbc, #d7fffc); min-height: 100vh; color: black;">
+<body style="background: linear-gradient(45deg, #00edbc, #e9fffd); min-height: 100vh; color: black;">
     <br><br><br>
     <div class="container-fluid main-contain p-0">
         <!-- <div class="content"> -->

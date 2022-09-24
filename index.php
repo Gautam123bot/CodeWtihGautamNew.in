@@ -124,7 +124,7 @@
                 </div>
             </div>
             <div class="social-contact">
-                <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Facebook"><i
+                <a href="https://www.facebook.com/people/Codewithgautamin/100086031345008/" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Facebook"><i
                         class="fa-brands fa-facebook-f facebooki"></i></a>
                 <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Twitter"><i
                         class="fa-brands fa-twitter twitteri"></i></a>

@@ -8,18 +8,33 @@
 
 
 <url>
-  <loc>https://codewithgautam.in/</loc>
-  <lastmod>2022-09-22T15:21:57+00:00</lastmod>
+  <loc>http://codewithgautam.in/</loc>
+  <lastmod>2022-09-24T06:51:41+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://codewithgautam.in/project2.php</loc>
-  <lastmod>2022-09-22T15:21:57+00:00</lastmod>
+  <loc>http://codewithgautam.in/project1.php</loc>
+  <lastmod>2022-09-24T06:51:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://codewithgautam.in/project1.php</loc>
-  <lastmod>2022-09-22T15:21:57+00:00</lastmod>
+  <loc>http://codewithgautam.in/project2.php</loc>
+  <lastmod>2022-09-24T06:51:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://codewithgautam.in/project3.php</loc>
+  <lastmod>2022-09-24T06:51:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://codewithgautam.in/project4.php</loc>
+  <lastmod>2022-09-24T06:51:41+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://codewithgautam.in/project5.php</loc>
+  <lastmod>2022-09-24T06:51:41+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
