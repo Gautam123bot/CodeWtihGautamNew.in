@@ -17,7 +17,7 @@ $name = $_POST['name'];
 $email = $_POST['email'];
 $tell = $_POST['tell'];
 
-$query = " insert into gautamcontactinfo (name, email, tell) values
+$query = " insert into gautamcontactinfo (Name, Email, Message) values
 ('$name', '$email', '$tell') ";
 
 $iquery = mysqli_query($con, $query);

@@ -3,7 +3,7 @@
 
         if(isset($_POST['send']))
         {
-         $sql = "INSERT INTO gautamcontactinfo(name, email, tell)
+         $sql = "INSERT INTO gautamcontactinfo(Name, Email, Message)
             VALUES ('".$_POST["name"]."','".$_POST["email"]."','".$_POST["tell"]."')";
 
          $result = mysqli_query($conn,$sql);
