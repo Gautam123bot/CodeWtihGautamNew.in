@@ -803,7 +803,8 @@
                                     </div>
                                 </div>
                                 <div class="col-12 col-lg-9 contact-col2" data-aos="fade-up-left">
-                                    <form action="">
+
+                                    <form action="register.php" method="POST">
                                         <p class="send_note">Send us a Note</p>
                                         <div class="row">
                                             <div class="col-12 col-lg-6">
@@ -817,7 +818,8 @@
                                         </div>
                                         <textarea class="form-control" name="tell" id="" cols="30" rows="5"
                                             placeholder="Tell us more about yourself........."></textarea>
-                                        <input type="button" class="send_msg_button" value="Send message">
+                                        <!-- <input type="button" class="send_msg_button" value="Send message" name="send"> -->
+                                        <button type="submit" class="btn btn-primary send_msg_button" name="send">Submit</button>
                                     </form>
                                 </div>
                             </div>
