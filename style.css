@@ -680,7 +680,10 @@ div.content {
 }
 
 .follow-me-icon a:nth-child(5) {
-    color: #ff0048;
+    color: #25D366;
+}
+.follow-me-icon a:nth-child(5) i{
+    font-size: 26px !important;
 }
 
 .send_note {

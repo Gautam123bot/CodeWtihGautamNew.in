@@ -126,11 +126,11 @@
             <div class="social-contact">
                 <a href="https://www.facebook.com/people/Codewithgautamin/100086031345008/" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Facebook"><i
                         class="fa-brands fa-facebook-f facebooki"></i></a>
-                <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Twitter"><i
+                <a href="https://twitter.com/GautamK60450019" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Twitter"><i
                         class="fa-brands fa-twitter twitteri"></i></a>
-                <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Instagram"><i
+                <a href="https://www.instagram.com/bishopgautam12345/" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Instagram"><i
                         class="fa-brands fa-instagram instagrami"></i></a>
-                <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="GitHub"><i
+                <a href="https://github.com/Gautam123bot" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="GitHub"><i
                         class="fa-brands fa-github githubi"></i></a>
             </div>
         </div>
@@ -143,7 +143,7 @@
 
                 <div id="home" class="page-section">
                     <div class="hero-bg">
-                        <a href="#"><img src="img/github_octocat.png" data-aos="zoom-in" data-aos-duration="3000" alt=""
+                        <a href="https://github.com/Gautam123bot"><img src="img/github_octocat.png" data-aos="zoom-in" data-aos-duration="3000" alt=""
                                 class="img-responsive github-top"></a>
                         <div class="inner-content">
                             <div class="inn-content p-4">
@@ -644,11 +644,7 @@
                                         <p class="small-position">Business
                                             Development Jakson Ltd.
                                         </p>
-                                        <p class="small-content">I am extremely happy with my
-                                            experience with
-                                            NoBroker
-                                            movers and packers team. Being a senior citizen
-                                            while
+                                        <p class="small-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore minima expedita quos cumque, doloremque aliquid, facere suscipit nostrum provident perferendis nobis ullam porro.
 
                                         </p>
                                         <div class="testi-ranking">
@@ -669,14 +665,9 @@
 
 
                                         <p class="small-position">Visual Merchandiser</p>
-                                        <p class="small-content">Professionalism with quality
-                                            services is what you
-                                            get
-                                            with NoBroker Packers and Movers. Their entire team
-                                            including their
-                                            Movement
+                                        <p class="small-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati sint, praesentium atque perferendis nesciunt enim?
 
-                                            packers and movers services.</p>
+                                          </p>
                                         <div class="testi-ranking">
                                             <i class="fa-solid fa-star"></i>
                                             <i class="fa-solid fa-star"></i>
@@ -695,14 +686,7 @@
 
 
                                         <p class="small-position">Visual Merchandiser</p>
-                                        <p class="small-content">Professionalism with quality
-                                            services is what you
-                                            get
-                                            with NoBroker Packers and Movers. Their entire team
-                                            including their
-                                            Movement
-
-                                            packers and movers services.</p>
+                                        <p class="small-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse doloremque molestiae deleniti culpa doloribus impedit quo dignissimos sequi. Consequatur, earum.</p>
                                         <div class="testi-ranking">
                                             <i class="fa-solid fa-star"></i>
                                             <i class="fa-solid fa-star"></i>
@@ -721,14 +705,7 @@
 
 
                                         <p class="small-position">Visual Merchandiser</p>
-                                        <p class="small-content">Professionalism with quality
-                                            services is what you
-                                            get
-                                            with NoBroker Packers and Movers. Their entire team
-                                            including their
-                                            Movement
-
-                                            packers and movers services.</p>
+                                        <p class="small-content">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis libero vel quidem!</p>
                                         <div class="testi-ranking">
                                             <i class="fa-solid fa-star"></i>
                                             <i class="fa-solid fa-star"></i>
@@ -794,11 +771,12 @@
                                         </p>
                                         <h4 class="follow-me">Follow Me</h4>
                                         <div class="follow-me-icon">
-                                            <a href="#"><i class="fab fa-github"></i></a>
-                                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                                            <a href="#"><i class="fab fa-twitter"></i></a>
-                                            <a href="#"><i class="fab fa-facebook-f"></i></a>
-                                            <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                                            <a href="https://github.com/Gautam123bot"><i class="fab fa-github"></i></a>
+                                            <a href="https://www.instagram.com/bishopgautam12345/"><i class="fa-brands fa-instagram"></i></a>
+                                            <a href="https://twitter.com/GautamK60450019"><i class="fab fa-twitter"></i></a>
+                                            <a href="https://www.facebook.com/people/Codewithgautamin/100086031345008/"><i class="fab fa-facebook-f"></i></a>
+                                            <a href="https://api.whatsapp.com/send?phone=+919711329779&amp;text=
+I wanna websolution for my software related issues from your company"><i class="fa-brands fa-whatsapp"></i></a>
                                         </div>
                                     </div>
                                 </div>
