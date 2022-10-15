@@ -102,7 +102,7 @@
         <!-- <div class="col-lg-3 col-md-3 col-12 p-0 firstcol"> -->
         <div class="whole navside">
             <div class="navbar navbar-expand-md" id="navbar-example2">
-                <a class="navbar-brand text-center" href="#">Gautam Kumar</a>
+                <a class="navbar-brand text-center" href="index.php">Gautam Kumar</a>
                 <button class="navbar-toggler collapsed me-2" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -798,6 +798,7 @@ I wanna websolution for my software related issues from your company"><i class="
                                             placeholder="Tell us more about yourself........."></textarea>
                                         <!-- <input type="button" class="send_msg_button" value="Send message" name="send"> -->
                                         <button type="submit" class="btn btn-primary send_msg_button" name="send">Submit</button>
+                                        <a href="display.php">Check form</a>
                                     </form>
                                 </div>
                             </div>
