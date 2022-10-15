@@ -79,19 +79,52 @@
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script> -->
 
+    <style>
+    h1 {
+        font-family: 'Cairo', sans-serif;
+        font-size: 26px;
+        text-align: center;
+        border-bottom: 4px solid black;
+        display: block;
+        margin: 61px auto 20px auto;
+        width: 247px;
+        font-weight: bold;
+    }
+
+    * {
+        font-family: 'poppins', sans-serif;
+    }
+    body{
+        background-color: #c2d7ca;
+    }
+
+    tr {
+        line-height: 34px;
+    }
+
+    @media screen and (min-width: 480px) {
+
+        th,
+        td {
+            padding-left: 26px !important;
+            padding-right: 26px !important;
+        }
+    }
+    </style>
 
 </head>
 
 <body>
 
     <div class="main-div">
-        <h1>List of candidates for web developer job</h1>
+        <h1>Contact data of CodeWithGautam.in</h1>
 
         <div class="center-div">
             <div class="table-responsive">
-                <table>
+                <table class="table table-success table-striped">
                     <thead>
                         <tr>
+                            <th>Id</th>
                             <th>Name</th>
                             <th>Email</th>
                             <th>Message</th>
@@ -114,15 +147,15 @@
                                 // echo $res['name'] . "<br>";
                             ?>
 
-                                <tr>
-                                    <td><?php echo $res['ID']; ?></td>
-                                    <td><?php echo $res['Name']; ?></td>
-                                    <td><?php echo $res['Email']; ?></td>
-                                    <td><?php echo $res['Message']; ?></td>
-                                   
-                                    <td><i class="fa fa-edit" aria-hidden="true"></i></td>
-                                    <td><i class="fa fa-trash" aria-hidden="true"></i></td>
-                                </tr>
+                        <tr>
+                            <td><?php echo $res['ID']; ?></td>
+                            <td><?php echo $res['Name']; ?></td>
+                            <td><?php echo $res['Email']; ?></td>
+                            <td><?php echo $res['Message']; ?></td>
+
+                            <td><i class="fa fa-edit" aria-hidden="true"></i></td>
+                            <td><i class="fa fa-trash" aria-hidden="true"></i></td>
+                        </tr>
 
                         <?php
                             }

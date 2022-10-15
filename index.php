@@ -798,7 +798,7 @@ I wanna websolution for my software related issues from your company"><i class="
                                             placeholder="Tell us more about yourself........."></textarea>
                                         <!-- <input type="button" class="send_msg_button" value="Send message" name="send"> -->
                                         <button type="submit" class="btn btn-primary send_msg_button" name="send">Submit</button>
-                                        <a href="display.php">Check form</a>
+                                        <!-- <a href="display.php">Check form</a> -->
                                     </form>
                                 </div>
                             </div>
