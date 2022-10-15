@@ -115,10 +115,10 @@
                             ?>
 
                                 <tr>
-                                    <td><?php echo $res['id']; ?></td>
-                                    <td><?php echo $res['name']; ?></td>
-                                    <td><?php echo $res['email']; ?></td>
-                                    <td><?php echo $res['tell']; ?></td>
+                                    <td><?php echo $res['ID']; ?></td>
+                                    <td><?php echo $res['Name']; ?></td>
+                                    <td><?php echo $res['Email']; ?></td>
+                                    <td><?php echo $res['Message']; ?></td>
                                    
                                     <td><i class="fa fa-edit" aria-hidden="true"></i></td>
                                     <td><i class="fa fa-trash" aria-hidden="true"></i></td>
