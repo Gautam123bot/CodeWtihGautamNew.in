@@ -1,3 +1,7 @@
+<?php
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -80,113 +84,44 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script> -->
 
     <style>
-    h1 {
-        font-family: 'Cairo', sans-serif;
-        font-size: 26px;
+    .contact-contain-section input {
+        width: 100%;
+        margin-bottom: 30px;
+        padding: 10px 15px 10px 15px;
+    }
+
+    .contact-contain-section textarea {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
         text-align: center;
-        border-bottom: 4px solid black;
-        display: block;
-        margin: 61px auto 20px auto;
-        width: 247px;
-        font-weight: bold;
-    }
-
-    * {
-        font-family: 'poppins', sans-serif;
-    }
-
-    body {
-        background-color: #c2d7ca;
-    }
-
-    tr {
-        line-height: 34px;
-    }
-
-    @media screen and (min-width: 480px) {
-
-        th,
-        td {
-            padding-left: 26px !important;
-            padding-right: 26px !important;
-        }
-    }
-
-    td a i{
-        color: black !important;
-        font-weight: bold !important
+        height: 100vh;
     }
     </style>
 
 </head>
 
 <body>
-
-    <div class="main-div">
-        <h1>Contact data of CodeWithGautam.in</h1>
-
-        <div class="center-div">
-            <div class="table-responsive">
-                <table class="table table-success table-striped">
-                    <thead>
-                        <tr>
-                            <th>Id</th>
-                            <th>Name</th>
-                            <th>Email</th>
-                            <th>Message</th>
-                            <th colspan="2">Operation</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-
-                        <?php
-                            include 'conn.php';
-                            $selectquery = " select * from gautamcontactinfo ";
-                            $query = mysqli_query($conn,$selectquery);
-                            // $nums = mysqli_num_rows($query);
-                            // echo $nums;
-
-                            // $res = mysqli_fetch_array($query);
-                            // echo $res[1];
-
-                            while($res = mysqli_fetch_array($query) ){
-                                // echo $res['name'] . "<br>";
-                            ?>
-
-                        <tr>
-                            <td><?php echo $res['ID']; ?></td>
-                            <td><?php echo $res['Name']; ?></td>
-                            <td><?php echo $res['Email']; ?></td>
-                            <td><?php echo $res['Message']; ?></td>
-
-                            <td><a href="update.php" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Edit"><i
-                                        class="fa fa-edit" aria-hidden="true"></i></a></td>
-                            <td><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Delete"><i
-                                        class="fa fa-trash" aria-hidden="true"></i></a></td>
-                        </tr>
-
-                        <?php
-                            }
-
-                        ?>
-
-
-
-
-                    </tbody>
-                </table>
+    <form action="register.php" method="POST" class="p-3">
+        <!-- <p class="send_note">Send us a Note</p> -->
+        <div class="row">
+            <div class="col-12 col-lg-6">
+                <input class="form-control" type="text" name="name" id="" placeholder="Name">
+            </div>
+            <div class="col-12 col-lg-6">
+                <input class="form-control" type="email" name="email" id="" placeholder="Email">
             </div>
         </div>
-    </div>
-
-    <!-- Statement to initialize tooltip code -->
-    <script>
-    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-    var tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl) {
-        return new bootstrap.Tooltip(tooltipTriggerEl)
-    })
-    </script>
-
+        <textarea class="form-control" name="tell" id="" cols="30" rows="5"
+            placeholder="Tell us more about yourself........."></textarea>
+        <!-- <input type="button" class="send_msg_button" value="Send message" name="send"> -->
+        <button type="submit" class="btn btn-primary send_msg_button" name="send">Submit</button>
+        <!-- <a href="display.php">Check form</a> -->
+    </form>
 </body>
 
 </html>

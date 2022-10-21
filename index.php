@@ -774,9 +774,10 @@
                                             <a href="https://github.com/Gautam123bot"><i class="fab fa-github"></i></a>
                                             <a href="https://www.instagram.com/bishopgautam12345/"><i class="fa-brands fa-instagram"></i></a>
                                             <a href="https://twitter.com/GautamK60450019"><i class="fab fa-twitter"></i></a>
-                                            <a href="https://www.facebook.com/people/Codewithgautamin/100086031345008/"><i class="fab fa-facebook-f"></i></a>
-                                            <a href="https://api.whatsapp.com/send?phone=+919711329779&amp;text=
-I wanna websolution for my software related issues from your company"><i class="fa-brands fa-whatsapp"></i></a>
+                                            <a href="https://www.facebook.com/people/Codewithgautamin/100086031345008/"><i class="fa-brands fa-facebook"></i></a>
+                                            <!-- <a href="https://api.whatsapp.com/send?phone=+919711329779&amp;text=
+I wanna websolution for my software related issues from your company"><i class="fa-brands fa-whatsapp"></i></a> -->
+                                            <a href="https://www.linkedin.com/in/gautam-kumar-994a3123b/"><i class="fa-brands fa-linkedin"></i></a>
                                         </div>
                                     </div>
                                 </div>

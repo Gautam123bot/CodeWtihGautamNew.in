@@ -1,7 +1,7 @@
 
 
 
-
+<!-- This file is of no use this is just a combination of conn.php and register.php -->
 
 <?php
 $con = mysqli_connect('localhost','codewithgautam','Gautam@123@mysql','webganyi_contactdata','3306');

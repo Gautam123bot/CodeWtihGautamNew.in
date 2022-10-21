@@ -679,9 +679,12 @@ div.content {
 .follow-me-icon a:nth-child(4) {
     color: #3b5998;
 }
+.follow-me-icon a:nth-child(4) i{
+    font-size: 25px;
+}
 
 .follow-me-icon a:nth-child(5) {
-    color: #25D366;
+    color: #0077b5;
 }
 .follow-me-icon a:nth-child(5) i{
     font-size: 26px !important;
