@@ -6,7 +6,7 @@ $id = $_GET['id'];
 
 $deletequery = " delete from gautamcontactinfo where id=$id ";
 
-$query = mysqli_query($con,$deletequery);
+$query = mysqli_query($conn,$deletequery);
 
 
 if($query){
