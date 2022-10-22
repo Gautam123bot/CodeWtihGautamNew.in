@@ -5,6 +5,9 @@
         position: relative;
     }
 
+    .main_div{
+        margin-top: 100px;
+    }
     .my-img {
         display: none !important;
     }

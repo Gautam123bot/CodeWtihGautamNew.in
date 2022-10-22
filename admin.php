@@ -31,11 +31,11 @@
                 <span class="fas fa-bars toggler-icon"></span>
             </div>
             <nav class="sidebar">
-                <ul class="main_side multi-work-ul">
+                <ul class="main_side multi-work-ul m-0">
                     <div class="text">
                         <div class="image-upload">
                             <label for="file-input">
-                                <img src="img/profile-img.png" alt="" class="img-responsive">
+                                <img src="admin_panel/img/profile-img.png" alt="" class="img-responsive">
                                 <div id="display-image"></div>
                             </label>
                             <input type="file" id="file-input" accept="image/jpeg, image/png, image/jpg">
@@ -80,11 +80,12 @@
                         });
                         </script>
                     </div>
-                    <li class="active1"><a href="#"><i class="fas fa-fw fa-tachometer-alt"></i>&nbsp;&nbsp;Dashboard</a>
+                    <li class="active1"><a href="admin.php"><i class="fas fa-fw fa-tachometer-alt"></i>&nbsp;&nbsp;Admin</a>
                     </li>
-                    <li><a href="#"><i class="fas fa-fw fa-tachometer-alt"></i>&nbsp;&nbsp;Parties</a>
+                    <li><a href="display.php"><i class="fas fa-fw fa-tachometer-alt"></i>&nbsp;&nbsp;Display Data</a>
                     </li>
-                    <li><a href="#"><i class="fas fa-fw fa-tachometer-alt"></i>&nbsp;&nbsp;Items</a>
+                    
+                    <!-- <li><a href="#"><i class="fas fa-fw fa-tachometer-alt"></i>&nbsp;&nbsp;Items</a>
                     </li>
                     <li>
                         <a href="#" id="1"><i class="fas fa-fw fa-folder"></i>&nbsp;&nbsp;Sale
@@ -160,7 +161,7 @@
 
                     <li class="pt-3"><a href="#"><i class="fa-solid fa-file-pen"></i>&nbsp;&nbsp;Trial Info</a></li>
                     <li><a href="#"><i class="fa-solid fa-file-pen"></i>&nbsp;&nbsp;Request A Demo</a></li>
-                    <li><a href="#"><i class="fa-solid fa-file-pen"></i>&nbsp;&nbsp;Share Feedback</a></li>
+                    <li><a href="#"><i class="fa-solid fa-file-pen"></i>&nbsp;&nbsp;Share Feedback</a></li> -->
                 </ul>
             </nav>
 
@@ -195,7 +196,8 @@
                                 <a href="#" class="loger d-inline-block nav-link dropdown-toggle" id="userDropdown"
                                     data-bs-toggle="dropdown" aria-expanded="false">
                                     <p class="loger-name">Gautam kumar</p>
-                                    <img src="img/undraw_profile.svg" alt="" width="30" class="img-responsive me-3">
+                                    <img src="admin_panel/img/undraw_profile.svg" alt="" width="30"
+                                        class="img-responsive me-3">
                                 </a>
                                 <div class="dropdown-menu dropdown-menu-right border-0 shadow"
                                     aria-labelledby="userDropdown">
@@ -224,7 +226,7 @@
                     </div>
                 </div>
 
-                <div class="dashboard">
+                <!-- <div class="dashboard">
                     <p class="dashboard-word d-inline-block">Dashboard</p>
                     <a href="#" class="btn-primary shadow-sm generate-report-btn"><i
                             class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
@@ -260,19 +262,68 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
                 <!-- <div class="graphs">
                     <php include 'linegraph.php'; ?>
                     <php include 'piegraph.php'; ?>
                 </div> -->
 
+                <style>
+                h1.top-header {
+                    font-family: 'Cairo', sans-serif;
+                    font-size: 26px;
+                    text-align: center;
+                    border-bottom: 4px solid black;
+                    display: block;
+                    margin: 61px auto 20px auto;
+                    width: 247px;
+                    font-weight: bold;
+                }
+
+                * {
+                    font-family: 'poppins', sans-serif;
+                }
+
+                body {
+                    background-color: #c2d7ca;
+                }
+
+                tr {
+                    line-height: 34px;
+                }
+
+                @media screen and (min-width: 480px) {
+
+                    th,
+                    td {
+                        padding-left: 26px !important;
+                        padding-right: 26px !important;
+                    }
+                }
+
+                td a .vi {
+                    color: #a3a3ff;
+                    font-weight: bold !important;
+                }
+                td a .ed {
+                    color: #7fff7f;
+                    font-weight: bold !important;
+                }
+                td a .del {
+                    color: #ff595b;
+                    font-weight: bold !important;
+                }
+                
+
+                </style>
+
                 <div class="main-div">
                     <h1 class="top-header">Contact data of CodeWithGautam.in</h1>
 
                     <div class="center-div">
                         <div class="table-responsive">
-                            <table class="table table-success table-striped">
+                            <table class="table table-dark table-striped">
                                 <thead>
                                     <tr>
                                         <th>Id</th>
@@ -306,12 +357,12 @@
 
                                         <td><a href="view.php?id=<?php echo $res['ID']; ?>" data-bs-toggle="tooltip"
                                                 data-bs-placement="bottom" data-bs-title="View"><i
-                                                    class="fa-solid fa-eye" aria-hidden="true"></i></a></td>
+                                                    class="fa-solid fa-eye vi" aria-hidden="true"></i></a></td>
                                         <td><a href="update.php?id=<?php echo $res['ID']; ?>" data-bs-toggle="tooltip"
-                                                data-bs-placement="bottom" data-bs-title="Edit"><i class="fa fa-edit"
+                                                data-bs-placement="bottom" data-bs-title="Edit"><i class="fa fa-edit ed"
                                                     aria-hidden="true"></i></a></td>
                                         <td><a href="delete.php?id=<?php echo $res['ID']; ?>" data-bs-toggle="tooltip"
-                                                data-bs-placement="bottom" data-bs-title="Delete"><i class="fa fa-trash"
+                                                data-bs-placement="bottom" data-bs-title="Delete"><i class="fa fa-trash del"
                                                     aria-hidden="true"></i></a></td>
                                     </tr>
 
