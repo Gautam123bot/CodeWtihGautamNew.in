@@ -160,13 +160,14 @@
                             <td><?php echo $res['Message']; ?></td>
 
                             <td><a href="view.php?id=<?php echo $res['ID']; ?>" data-bs-toggle="tooltip"
-                                    data-bs-placement="top" data-bs-title="View"><i class="fa-solid fa-eye"
+                                    data-bs-placement="bottom" data-bs-title="View"><i class="fa-solid fa-eye"
                                         aria-hidden="true"></i></a></td>
                             <td><a href="update.php?id=<?php echo $res['ID']; ?>" data-bs-toggle="tooltip"
-                                    data-bs-placement="top" data-bs-title="Edit"><i class="fa fa-edit"
+                                    data-bs-placement="bottom" data-bs-title="Edit"><i class="fa fa-edit"
                                         aria-hidden="true"></i></a></td>
-                            <td><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Delete"><i
-                                        class="fa fa-trash" aria-hidden="true"></i></a></td>
+                            <td><a href="delete.php?id=<?php echo $res['ID']; ?>" data-bs-toggle="tooltip"
+                                    data-bs-placement="bottom" data-bs-title="Delete"><i class="fa fa-trash"
+                                        aria-hidden="true"></i></a></td>
                         </tr>
 
                         <?php
