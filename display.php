@@ -80,7 +80,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script> -->
 
     <style>
-    h1 {
+    h1.top-header {
         font-family: 'Cairo', sans-serif;
         font-size: 26px;
         text-align: center;
@@ -123,7 +123,7 @@
 <body>
 
     <div class="main-div">
-        <h1>Contact data of CodeWithGautam.in</h1>
+        <h1 class="top-header">Contact data of CodeWithGautam.in</h1>
 
         <div class="center-div">
             <div class="table-responsive">
