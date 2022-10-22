@@ -159,8 +159,9 @@
                             <td><?php echo $res['Email']; ?></td>
                             <td><?php echo $res['Message']; ?></td>
 
-                            <td><a href="view.php" data-bs-toggle="tooltip" data-bs-placement="top"
-                                    data-bs-title="View"><i class="fa-solid fa-eye" aria-hidden="true"></i></a></td>
+                            <td><a href="view.php?id=<?php echo $res['ID']; ?>" data-bs-toggle="tooltip"
+                                    data-bs-placement="top" data-bs-title="View"><i class="fa-solid fa-eye"
+                                        aria-hidden="true"></i></a></td>
                             <td><a href="update.php?id=<?php echo $res['ID']; ?>" data-bs-toggle="tooltip"
                                     data-bs-placement="top" data-bs-title="Edit"><i class="fa fa-edit"
                                         aria-hidden="true"></i></a></td>

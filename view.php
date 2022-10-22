@@ -129,9 +129,8 @@
 
 
 
-     <!-- this is register.php for update.php. Here we have not included register.php file in form action -->
 
-     <?php
+    <?php
     include('conn.php');
 
         $ids = $_GET['id'];
@@ -142,6 +141,11 @@
 
         if(isset($_POST['send']))
         {
+
+            $name = $_POST['name'];
+            $email = $_POST['email'];
+            $message = $_POST['tell'];
+            
          $sql = "INSERT INTO gautamcontactinfo(Name, Email, Message)
             VALUES ('".$_POST["name"]."','".$_POST["email"]."','".$_POST["tell"]."')";
 
@@ -164,16 +168,18 @@
         <!-- <p class="send_note">Send us a Note</p> -->
         <div class="row">
             <div class="col-12 col-lg-6">
-                <input class="form-control" type="text" name="name" id="" placeholder="Name" value="<?php echo $arrdata['Name']; ?>">
+                <input class="form-control" type="text" name="name" id="" placeholder="Name"
+                    value="<?php echo $arrdata['Name']; ?>">
             </div>
             <div class="col-12 col-lg-6">
-                <input class="form-control" type="email" name="email" id="" placeholder="Email" value="<?php echo $arrdata['Email']; ?>">
+                <input class="form-control" type="email" name="email" id="" placeholder="Email"
+                    value="<?php echo $arrdata['Email']; ?>">
             </div>
         </div>
         <textarea class="form-control" name="tell" id="" cols="30" rows="5"
             placeholder="Tell us more about yourself........."><?php echo $arrdata['Message']; ?></textarea>
         <!-- <input type="button" class="send_msg_button" value="Send message" name="send"> -->
-        <button type="submit" class="btn btn-primary send_msg_button" name="send">Update</button>
+        <!-- <button type="submit" class="btn btn-primary send_msg_button" name="send">Update</button> -->
         <!-- <a href="display.php">Check form</a> -->
     </form>
 
@@ -183,7 +189,7 @@
 
 
 
-   
+
 
 
 
