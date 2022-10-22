@@ -112,7 +112,7 @@
         }
     }
 
-    td a i{
+    td a i {
         color: black !important;
         font-weight: bold !important
     }
@@ -134,7 +134,7 @@
                             <th>Name</th>
                             <th>Email</th>
                             <th>Message</th>
-                            <th colspan="2">Operation</th>
+                            <th colspan="3">Operation</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -159,8 +159,11 @@
                             <td><?php echo $res['Email']; ?></td>
                             <td><?php echo $res['Message']; ?></td>
 
-                            <td><a href="update.php" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Edit"><i
-                                        class="fa fa-edit" aria-hidden="true"></i></a></td>
+                            <td><a href="view.php" data-bs-toggle="tooltip" data-bs-placement="top"
+                                    data-bs-title="View"><i class="fa-solid fa-eye" aria-hidden="true"></i></a></td>
+                            <td><a href="update.php?id=<?php echo $res['ID']; ?>" data-bs-toggle="tooltip"
+                                    data-bs-placement="top" data-bs-title="Edit"><i class="fa fa-edit"
+                                        aria-hidden="true"></i></a></td>
                             <td><a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Delete"><i
                                         class="fa fa-trash" aria-hidden="true"></i></a></td>
                         </tr>

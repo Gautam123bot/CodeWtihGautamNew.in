@@ -142,21 +142,12 @@
 
         if(isset($_POST['send']))
         {
+         $sql = "INSERT INTO gautamcontactinfo(Name, Email, Message)
+            VALUES ('".$_POST["name"]."','".$_POST["email"]."','".$_POST["tell"]."')";
 
-            $idupdate = $_GET['id'];
-
-        //  $sql = "INSERT INTO gautamcontactinfo(Name, Email, Message)
-        //     VALUES ('".$_POST["name"]."','".$_POST["email"]."','".$_POST["tell"]."')";
-
-            $name = $_POST['name'];
-            $email = $_POST['email'];
-            $message = $_POST['tell'];
-
-            $query = " update gautamcontactinfo set ID=$idupdate, Name='$name',Email='$email', Message='$message' where id=$idupdate ";
-
-         $result = mysqli_query($conn,$query);
-         echo"<script>alert('Data updated successfully')</script>";
-         echo"<script>window.location='display.php'</script>";
+         $result = mysqli_query($conn,$sql);
+         echo"<script>alert('Our Team Will Contact You Soon')</script>";
+         echo"<script>window.location='index.php'</script>";
         }
 
     ?>
