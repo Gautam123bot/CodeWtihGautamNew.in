@@ -30,7 +30,7 @@
             <div class="toggle-button btn">
                 <span class="fas fa-bars toggler-icon"></span>
             </div>
-            <nav class="sidebar">
+            <nav class="sidebar bg-primary">
                 <ul class="main_side multi-work-ul m-0">
                     <div class="text">
                         <div class="image-upload">
@@ -45,7 +45,7 @@
                         #display-image {
                             width: 56px;
                             height: 56px;
-                            border: 1px solid black;
+                            /* border: 1px solid black; */
                             background-position: center;
                             background-size: cover;
                             position: absolute;
@@ -82,7 +82,7 @@
                     </div>
                     <li class="active1"><a href="admin.php"><i class="fas fa-fw fa-tachometer-alt"></i>&nbsp;&nbsp;Admin</a>
                     </li>
-                    <li><a href="display.php"><i class="fas fa-fw fa-tachometer-alt"></i>&nbsp;&nbsp;Display Data</a>
+                    <li><a href="display.php"><i class="fa-solid fa-display"></i>&nbsp;&nbsp;Display Data</a>
                     </li>
                     
                     <!-- <li><a href="#"><i class="fas fa-fw fa-tachometer-alt"></i>&nbsp;&nbsp;Items</a>
@@ -323,7 +323,7 @@
 
                     <div class="center-div">
                         <div class="table-responsive">
-                            <table class="table table-dark table-striped">
+                            <table class="table table-primary table-striped">
                                 <thead>
                                     <tr>
                                         <th>Id</th>
