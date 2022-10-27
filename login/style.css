@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,500;0,600;0,700;0,800;1,900&display=swap');
+
+* {
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    background: #00a497 !important;
+}
+
+.row {
+    box-shadow: 16px 16px 23px -10px #3e3e3e;
+    width: 850px;
+}
+
+.first-col {
+    background-color: #00bdaa;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-col p {
+    color: whitesmoke;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.first-col h2 {
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.second-col {
+    background-color: white;
+    text-align: center;
+}
+
+.top-contain {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signin-btn {
+    border: 1px solid #ffffff;
+    background: none;
+    border-radius: 30px;
+    padding: 10px 50px 10px 50px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.second-col .input-icon {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.second-col h1 {
+    font-weight: bold;
+    text-align: center;
+    color: #00a696;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 900;
+    margin-top: 50px;
+}
+
+.second-col .input-icon i {
+    border: 1px solid rgb(228 228 228);
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.second-col .iconn {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.second-col p {
+    text-align: center;
+    font-size: 15px;
+    color: gray;
+    margin-top: 15px;
+}
+
+.signup-btn {
+    background-color: #00bdaa;
+    border-radius: 30px;
+    color: whtie;
+    padding: 12px 60px 12px 60px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    border: none;
+    color: white;
+}
+
+.second-col form .input-group span {
+    background: none;
+}
+
+.second-col form .input-group input {
+    border-left: 0;
+    background: #edf9ed;
+}
+
+.second-col .input-group .input-group-text {
+    background: #edf9ed;
+}
+
+.second-col .input-group {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 13px;
+}
+
+.second-col form {
+    position: relative;
+}
+
+.second-col form hr {
+    width: 300px;
+    margin: 20px auto;
+}
+
+.second-col .orlogin {
+    position: absolute;
+    top: -12px;
+    z-index: 1;
+    background: white;
+    color: gray;
+    font-family: 'Courier New', Courier, monospace;
+    width: 35px;
+}
