@@ -43,6 +43,36 @@ session_start();
 
         if($email_count){
             $email_pass = mysqli_fetch_assoc($query);
+
+            $db_pass = $email_pass['password'];
+
+            $_SESSION['name'] = $email_pass['name'];    // this is used to display username in admin panel above logout(see in admin.php)
+
+            $pass_decode = password_verify($password, $db_pass);
+            
+            if($pass_decode){
+                ?>
+                <script>
+                    alert("login successful");
+                    location.replace("admin.php");
+                </script>
+                <?php
+            }
+            else{
+                ?>
+                <script>
+                    alert("password incorrect");
+                </script>
+                <?php
+            }
+
+        }
+        else{
+            ?>
+            <script>
+                alert("Invalid Email");
+            </script>
+            <?php
         }
     } 
     
@@ -64,7 +94,7 @@ session_start();
                     <div class="iconn"><i class="fa-brands fa-facebook-f"></i></div>
                     <div class="iconn"><i class="fa-brands fa-twitter"></i></div>
                 </div>
-                <form action="" method="POST">
+                <form action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>" method="POST">
                     <hr>
                     <span class="orlogin">OR</span>
                     <div class="input-group">
@@ -73,7 +103,7 @@ session_start();
                     </div>
                     <div class="input-group">
                         <span class="input-group-text"><i class="fa-solid fa-unlock-keyhole"></i></span>
-                        <input type="text" class="form-control" placeholder="Password" name="password">
+                        <input type="password" class="form-control" placeholder="Password" name="password">
                     </div>
                     <input type="submit" value="Login" class="signup-btn" name="submit">
                 </form>
@@ -82,7 +112,7 @@ session_start();
                 <div class="">
                     <h2>New Here?</h2>
                     <p>To keep connected with us please login with your personal info</p>
-                    <a href="signup.php"><input type="submit" value="Sign Up" class="signin-btn"></a>
+                    <a href="signup.php"><input type="submit" name="submit" value="Sign Up" class="signin-btn"></a>
                 </div>
             </div>
         </div>

@@ -1,3 +1,18 @@
+<?php
+
+session_start();
+
+if(!isset($_SESSION['name'])){
+    ?>
+    <script>
+        alert("You are logged out");
+    </script>
+    <?php
+    header('location:login.php');
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -195,7 +210,7 @@
                             <li class="nav-item dropdown no-arrow">
                                 <a href="#" class="loger d-inline-block nav-link dropdown-toggle" id="userDropdown"
                                     data-bs-toggle="dropdown" aria-expanded="false">
-                                    <p class="loger-name">Gautam kumar</p>
+                                    <p class="loger-name"><?php echo $_SESSION['name']; ?></p>
                                     <img src="admin_panel/img/undraw_profile.svg" alt="" width="30"
                                         class="img-responsive me-3">
                                 </a>
@@ -214,7 +229,7 @@
                                         Activity Log
                                     </a>
                                     <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item drop-user-a" href="#" data-toggle="modal"
+                                    <a class="dropdown-item drop-user-a" href="logout.php" data-toggle="modal"
                                         data-target="#logoutModal">
                                         <i
                                             class="drop-user-profile fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>&nbsp;&nbsp;&nbsp;

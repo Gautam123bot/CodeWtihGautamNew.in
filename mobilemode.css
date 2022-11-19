@@ -1,4 +1,9 @@
 @media screen and (max-width: 480px) {
+    .inn-content{
+        padding-top: 0 !important;
+        top: -20px;
+        position: relative;
+    }
     .iamgautam {
         font-weight: bold;
         font-size: 30px;
