@@ -65,7 +65,7 @@ session_start();
                 if($iquery){
                     ?>
                     <script>
-                        alert("Connection Successfully");
+                        alert("Registered Successfully");
                     </script>
                     <?php
                 }
