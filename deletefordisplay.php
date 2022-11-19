@@ -23,7 +23,7 @@ if($query){
         <?php
 }
 
-header('location: admin.php');
+header('location: display.php');
 
 
 ?>

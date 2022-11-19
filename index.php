@@ -788,15 +788,15 @@ I wanna websolution for my software related issues from your company"><i class="
                                         <div class="row">
                                             <div class="col-12 col-lg-6">
                                                 <input class="form-control" type="text" name="name" id=""
-                                                    placeholder="Name">
+                                                    placeholder="Name" required>
                                             </div>
                                             <div class="col-12 col-lg-6">
                                                 <input class="form-control" type="email" name="email" id=""
-                                                    placeholder="Email">
+                                                    placeholder="Email" required>
                                             </div>
                                         </div>
                                         <textarea class="form-control" name="tell" id="" cols="30" rows="5"
-                                            placeholder="Tell us more about yourself........."></textarea>
+                                            placeholder="Tell us more about yourself........." required></textarea>
                                         <!-- <input type="button" class="send_msg_button" value="Send message" name="send"> -->
                                         <button type="submit" class="btn btn-primary send_msg_button" name="send">Submit</button>
                                         <!-- <a href="display.php">Check form</a> -->

@@ -165,7 +165,7 @@
                             <td><a href="update.php?id=<?php echo $res['ID']; ?>" data-bs-toggle="tooltip"
                                     data-bs-placement="bottom" data-bs-title="Edit"><i class="fa fa-edit"
                                         aria-hidden="true"></i></a></td>
-                            <td><a href="delete.php?id=<?php echo $res['ID']; ?>" data-bs-toggle="tooltip"
+                            <td><a href="deletefordisplay.php?id=<?php echo $res['ID']; ?>" data-bs-toggle="tooltip"
                                     data-bs-placement="bottom" data-bs-title="Delete"><i class="fa fa-trash"
                                         aria-hidden="true"></i></a></td>
                         </tr>
