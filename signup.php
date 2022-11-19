@@ -1,3 +1,7 @@
+<?php 
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -24,6 +28,72 @@
 </head>
 
 <body>
+
+    <?php   
+    
+    include 'conn.php';
+
+    if(isset($_POST['submit'])){
+        $name = mysqli_real_escape_string($conn, $_POST['name']);
+        $email = mysqli_real_escape_string($conn, $_POST['email']);
+        $mobile = mysqli_real_escape_string($conn, $_POST['mobile']);
+        $password = mysqli_real_escape_string($conn, $_POST['password']);
+        $cpassword = mysqli_real_escape_string($conn, $_POST['cpassword']);
+
+        $pass = password_hash($password, PASSWORD_BCRYPT);
+        $cpass = password_hash($cpassword, PASSWORD_BCRYPT);
+
+        $emailquery = " select * from registration where email='$email' ";
+        $query = mysqli_query($conn, $emailquery);
+
+        $emailcount = mysqli_num_rows($query);
+
+        if($emailcount>0){
+            // echo "email already exists";
+            ?>
+            <script>
+                alert("Email already exists");
+            </script>
+            <?php
+        }
+        else{
+            if($password === $cpassword){
+                $insertquery = "insert into registration(name, email, mobile, password, cpassword) values('$name', '$email', '$mobile', '$pass', '$cpass')";
+
+                $iquery = mysqli_query($conn, $insertquery);
+
+                if($iquery){
+                    ?>
+                    <script>
+                        alert("Connection Successfully");
+                    </script>
+                    <?php
+                }
+                else{
+                    ?>
+                    <script>
+                        alert("No connection");
+                    </script>
+                    <?php
+                }
+            }
+            else{
+                ?>
+                    <script>
+                        alert("Password are not matching");
+                    </script>
+                    <?php
+            }
+        }
+
+    }
+
+    ?>
+
+
+
+
+
     <div class="container-fluid top-contain">
         <div class="row">
             <div class="col-sm-12 col-12 col-lg-4 first-col">
@@ -40,23 +110,31 @@
                     <div class="iconn"><i class="fa-brands fa-facebook-f"></i></div>
                     <div class="iconn"><i class="fa-brands fa-twitter"></i></div>
                 </div>
-                <form action="">
+                <form action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>" method="POST">
                     <hr>
                     <span class="orlogin">OR</span>
                     <p>use your email for registration</p>
                     <div class="input-group">
                         <span class="input-group-text"><i class="fa-solid fa-user"></i></span>
-                        <input type="text" class="form-control" placeholder="Name">
+                        <input type="text" name="name" class="form-control" placeholder="Full name" required>
                     </div>
                     <div class="input-group">
                         <span class="input-group-text"><i class="fa-solid fa-envelope"></i></span>
-                        <input type="text" class="form-control" placeholder="Email">
+                        <input type="text" name="email" class="form-control" placeholder="Email address">
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-text"><i class="fa-solid fa-phone"></i></span>
+                        <input type="text" name="mobile" class="form-control" placeholder="Phone number" required>
                     </div>
                     <div class="input-group">
                         <span class="input-group-text"><i class="fa-solid fa-unlock-keyhole"></i></span>
-                        <input type="text" class="form-control" placeholder="password">
+                        <input type="password" name="password" class="form-control" placeholder="Create password" required>
                     </div>
-                    <input type="submit" value="Sign Up" class="signup-btn">
+                    <div class="input-group">
+                        <span class="input-group-text"><i class="fa-solid fa-unlock-keyhole"></i></span>
+                        <input type="password" name="cpassword" class="form-control" placeholder="Confirm password" required>
+                    </div>
+                    <input type="submit" name="submit" value="Sign Up" class="signup-btn">
                 </form>
             </div>
         </div>

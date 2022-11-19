@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -24,6 +28,32 @@
 </head>
 
 <body>
+
+    <?php
+
+    include 'conn.php';
+    if(isset($_POST['submit'])){
+        $email = $_POST['email'];
+        $password = $_POST['password'];
+
+        $email_search = " select * from registration where email='$email' ";
+        $query = mysqli_query($conn,$email_search);
+
+        $email_count = mysqli_num_rows($query);
+
+        if($email_count){
+            $email_pass = mysqli_fetch_assoc($query);
+        }
+    } 
+    
+    
+    ?>
+
+
+
+
+
+
     <div class="container-fluid top-contain">
         <div class="row">
             <div class="col-sm-12 col-12 col-lg-8 second-col">
@@ -34,18 +64,18 @@
                     <div class="iconn"><i class="fa-brands fa-facebook-f"></i></div>
                     <div class="iconn"><i class="fa-brands fa-twitter"></i></div>
                 </div>
-                <form action="">
+                <form action="" method="POST">
                     <hr>
                     <span class="orlogin">OR</span>
                     <div class="input-group">
                         <span class="input-group-text"><i class="fa-solid fa-envelope"></i></span>
-                        <input type="text" class="form-control" placeholder="Email">
+                        <input type="text" class="form-control" placeholder="Email" name="email">
                     </div>
                     <div class="input-group">
                         <span class="input-group-text"><i class="fa-solid fa-unlock-keyhole"></i></span>
-                        <input type="text" class="form-control" placeholder="password">
+                        <input type="text" class="form-control" placeholder="Password" name="password">
                     </div>
-                    <input type="submit" value="Login" class="signup-btn">
+                    <input type="submit" value="Login" class="signup-btn" name="submit">
                 </form>
             </div>
             <div class="col-sm-12 col-12 col-lg-4 first-col">
